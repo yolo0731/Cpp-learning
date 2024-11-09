@@ -14,6 +14,12 @@ C++学习路线笔记及资源
    - 笔记 [参考链接](https://github.com/ShujiaHuang/Cpp-Primer-Plus-6th)
    - code
 4. 侯捷C++面向对象高级编程 [视频](https://www.youtube.com/watch?v=2S-tJaPKFdQ&list=PLARyLAkGMq_7_qm4gPZ0OvfqfQrvkFVMw&index=2)
-   - 课件pdf
+   - [课件pdf](侯捷C++面向对象高级编程/课件pdf)
    - 笔记 [参考链接](https://github.com/Jin-zz/LearningCPlusPlus/tree/main)
    - code
+
+
+
+--- 
+学习路线参考
+[C++后端学习路线](https://github.com/TheWorlllllllld/learning-route)
