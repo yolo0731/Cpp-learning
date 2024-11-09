@@ -4,8 +4,8 @@ C++学习路线笔记及资源
    - [课后习题答案](小甲鱼C语言基础学习/带你学C带你飞课后答案)
 2. C++ Primer Plus
    - 书籍pdf
-   - 课后习题答案[引用链接](https://github.com/ShujiaHuang/Cpp-Primer-Plus-6th/blob/62e3a1d025aae32b6c2426e00ef498c95c04d262/booknotes/chapter01.md)
-   - 笔记
+   - 课后习题答案
+   - 笔记 [引用链接](https://github.com/ShujiaHuang/Cpp-Primer-Plus-6th/blob/62e3a1d025aae32b6c2426e00ef498c95c04d262/booknotes/chapter01.md)
    - code
 3. 侯捷C++面向对象高级编程 [视频](https://www.youtube.com/watch?v=2S-tJaPKFdQ&list=PLARyLAkGMq_7_qm4gPZ0OvfqfQrvkFVMw&index=2)
    - 课件pdf
