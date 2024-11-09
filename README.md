@@ -15,5 +15,5 @@ C++学习路线笔记及资源
    - code
 4. 侯捷C++面向对象高级编程 [视频](https://www.youtube.com/watch?v=2S-tJaPKFdQ&list=PLARyLAkGMq_7_qm4gPZ0OvfqfQrvkFVMw&index=2)
    - 课件pdf
-   - 笔记
+   - 笔记 [参考链接](https://github.com/Jin-zz/LearningCPlusPlus/tree/main)
    - code
