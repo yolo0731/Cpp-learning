@@ -5,7 +5,7 @@ C++学习路线笔记及资源
    - [code](小甲鱼C语言基础学习/code)
 2. 黑马c++基础学习(1-18节,学一部分发现没更完 放弃) [视频](https://www.bilibili.com/video/BV1ZH4y137ws/?spm_id_from=333.337.search-card.all.click&vd_source=25cfb81d952e6f96fcc47d02e16b46fd)
    - [笔记](黑马c++基础学习/黑马C++基础学习.md)
-   - code
+   - [code](黑马c++基础学习/code)
 3. C++ Primer Plus
    - 书籍及附件pdf
      - [书籍pdf链接密码1234](https://pan.baidu.com/s/1NvWLStnvizdkLj00wVhFjQ?pwd=1234)
