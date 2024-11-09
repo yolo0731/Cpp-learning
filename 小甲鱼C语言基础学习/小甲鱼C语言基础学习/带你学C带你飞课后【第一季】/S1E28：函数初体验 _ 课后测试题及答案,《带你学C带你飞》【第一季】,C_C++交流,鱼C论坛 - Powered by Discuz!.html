@@ -1,0 +1,2908 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>S1E28：函数初体验 | 课后测试题及答案,《带你学C带你飞》【第一季】,C\C++交流,鱼C论坛 -  Powered by Discuz!</title>
+<link href="https://fishc.com.cn/thread-76988-1-1.html" rel="canonical" />
+<script type="text/javascript">
+	(function(){
+	    _fmOpt = {
+	        partner: 'fishc',
+	        appName: 'fishc_web',
+	        token: 'fishc-1562389008-1082561724123898',
+	        fmb: false,
+			getinfo: function(){
+				return 'e3Y6ICIyLjUuMCIsIG9zOiAid2ViIiwgczogMTk5LCBlOiAianMgbm90IGRvd25sb2FkIn0=';
+			},
+	    };
+	    var cimg = new Image(1,1);
+	    cimg.onload = function() {
+	        _fmOpt.imgLoaded = true;
+	    };
+	    _fmOpt.flashSwitch=false;
+	    cimg.src = "https://fp.fraudmetrix.cn/fp/clear.png?partnerCode=fishc&appName=fishc_web&tokenId=" + _fmOpt.token;
+	    var fm = document.createElement('script'); fm.type = 'text/javascript'; fm.async = true;
+	    fm.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'static.fraudmetrix.cn/v2/fm.js?ver=0.1&t=' + (new Date().getTime()/3600000).toFixed(0);
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fm, s);
+	})();
+	</script>
+<meta name="keywords" content="鱼C论坛《带你学C带你飞》【第一季】C\C++交流S1E28：函数初体验 | 课后测试题及答案" />
+<meta name="description" content=" S1E28：函数初体验 | 课后测试题及答案 " />
+<meta name="generator" content="Discuz! X3.4" />
+<meta name="author" content="Discuz! Team and Comsenz UI Team" />
+<meta name="copyright" content="2001-2017 Comsenz Inc." />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<base href="https://fishc.com.cn/" /><link rel="stylesheet" type="text/css" href="data/cache/style_1_common.css?F62" /><link rel="stylesheet" type="text/css" href="data/cache/style_1_forum_viewthread.css?F62" /><link rel="stylesheet" id="css_extstyle" type="text/css" href="./template/default/style/t2/style.css" /><script type="text/javascript">var STYLEID = '1', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'F62', charset = 'gbk', discuz_uid = '670134', cookiepre = 'oMVX_2132_', cookiedomain = '', cookiepath = '/', showusercard = '1', attackevasive = '0', disallowfloat = 'login|newthread', creditnotice = '1|荣誉|,2|鱼币|,3|贡献|,5|技术值|,6|C币|', defaultstyle = './template/default/style/t2', REPORTURL = 'aHR0cHM6Ly9maXNoYy5jb20uY24vZm9ydW0ucGhwP21vZD12aWV3dGhyZWFkJnRpZD03Njk4OCZleHRyYT1wYWdlJTNEMSUyNmZpbHRlciUzRHR5cGVpZCUyNnR5cGVpZCUzRDU3MA==', SITEURL = 'https://fishc.com.cn/', JSPATH = 'data/cache/', CSSPATH = 'data/cache/style_', DYNAMICURL = '';</script>
+<script src="data/cache/common.js?F62" type="text/javascript"></script>
+<meta name="application-name" content="鱼C论坛" />
+<meta name="msapplication-tooltip" content="鱼C论坛" />
+<meta name="msapplication-task" content="name=论坛;action-uri=https://fishc.com.cn/forum.php;icon-uri=https://fishc.com.cn/static/image/common/bbs.ico" />
+<meta name="msapplication-task" content="name=空间;action-uri=https://fishc.com.cn/home.php;icon-uri=https://fishc.com.cn/static/image/common/home.ico" /><link rel="archives" title="鱼C论坛" href="https://fishc.com.cn/archiver/" />
+<link rel="stylesheet" id="css_widthauto" type="text/css" href='data/cache/style_1_widthauto.css?F62' />
+<script type="text/javascript">HTMLNODE.className += ' widthauto'</script>
+<script src="data/cache/forum.js?F62" type="text/javascript"></script>
+</head>
+
+<body id="nv_forum" class="pg_viewthread" onkeydown="if(event.keyCode==27) return false;">
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+<div id="toptb" class="cl">
+<div class="wp">
+<div class="z"><a href="javascript:;"  onclick="setHomepage('https://fishc.com.cn/');">设为首页</a><a href="https://fishc.com.cn/"  onclick="addFavorite(this.href, '鱼C论坛');return false;">收藏本站</a></div>
+<div class="y">
+<a id="switchblind" href="javascript:;" onclick="toggleBlind(this)" title="开启辅助访问" class="switchblind">开启辅助访问</a>
+<a id="sslct" href="javascript:;" onmouseover="delayShow(this, function() {showMenu({'ctrlid':'sslct','pos':'34!'})});">切换风格</a></div>
+</div>
+</div>
+
+<ul id="myprompt_menu" class="p_pop" style="display: none;">
+<li><a href="https://fishc.com.cn/home.php?mod=space&amp;do=pm" id="pm_ntc" style="background-repeat: no-repeat; background-position: 0 50%;"><em class="prompt_news_0"></em>消息</a></li>
+<li><a href="https://fishc.com.cn/home.php?mod=follow&amp;do=follower"><em class="prompt_follower_0"></em>新听众</a></li>
+<li class="ignore_noticeli"><a href="javascript:;" onclick="setcookie('ignore_notice', 1);hideMenu('myprompt_menu')" title="暂不提醒"><em class="ignore_notice"></em></a></li>
+</ul>
+<div id="sslct_menu" class="cl p_pop" style="display: none;">
+<span class="sslct_btn" onclick="extstyle('./template/default/style/t2')" title="青"><i style='background:#429296'></i></span>
+</div>
+<ul id="myitem_menu" class="p_pop" style="display: none;">
+<li><a href="https://fishc.com.cn/forum.php?mod=guide&amp;view=my">帖子</a></li>
+<li><a href="https://fishc.com.cn/home.php?mod=space&amp;do=favorite&amp;view=me">收藏</a></li>
+<li><a href="https://fishc.com.cn/home.php?mod=space&amp;do=friend">好友</a></li>
+</ul>
+<div id="qmenu_menu" class="p_pop " style="display: none;">
+<ul class="cl nav"><li><a href="plugin.php?id=ruri_medal" title="勋章中心" style="background-image:url(https://fishc.com.cn/static/image/feed/medal_b.png) !important">勋章</a></li>
+<li><a href="https://fishc.com.cn/home.php?mod=space&do=friend" style="background-image:url(https://fishc.com.cn/static/image/feed/friend_b.png) !important">好友</a></li>
+<li><a href="https://fishc.com.cn/forum.php?mod=guide&view=my" style="background-image:url(https://fishc.com.cn/static/image/feed/thread_b.png) !important">帖子</a></li>
+<li><a href="https://fishc.com.cn/home.php?mod=space&do=favorite&view=me" style="background-image:url(https://fishc.com.cn/static/image/feed/favorite_b.png) !important">收藏</a></li>
+<li><a href="https://fishc.com.cn/home.php" style="background-image:url(https://fishc.com.cn/static/image/feed/feed_b.png) !important">动态</a></li>
+<li><a href="https://fishc.com.cn/home.php?mod=space&do=blog" style="background-image:url(https://fishc.com.cn/static/image/feed/blog_b.png) !important">日志</a></li>
+<li><a href="https://fishc.com.cn/home.php?mod=space&do=album" style="background-image:url(https://fishc.com.cn/static/image/feed/album_b.png) !important">相册</a></li>
+<li><a href="misc.php?mod=ranklist" style="background-image:url(https://fishc.com.cn/static/image/feed/ranklist_b.png) !important">排行榜</a></li>
+<li><a href="plugin.php?id=ks_cr:index" style="background-image:url(https://fishc.com.cn/data/attachment/common/cf/212320y1cshczw7vk9ffcs.png?jGst1a) !important">C币兑换</a></li>
+</ul>
+<div id="fjump_menu" class="btda"></div></div><div id="hd">
+<div class="wp">
+<div class="hdc cl"><h2><a href="https://fishc.com.cn/" title="鱼C论坛"><img src="static/image/common/logo.png" alt="鱼C论坛" border="0" /></a></h2><div id="um">
+<div class="avt y"><a href="https://fishc.com.cn/space-uid-670134.html"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=670134&size=small" /></a></div>
+<p>
+<strong class="vwmy"><a href="https://fishc.com.cn/space-uid-670134.html" target="_blank" title="访问我的空间">Hades帅呆呆</a></strong>
+<span id="loginstatus">
+<a id="loginstatusid" href="member.php?mod=switchstatus" title="切换在线状态" onclick="ajaxget(this.href, 'loginstatus');return false;" class="xi2"></a>
+</span>
+<span class="pipe">|</span><a href="javascript:;" id="myitem" class="showmenu" onmouseover="showMenu({'ctrlid':'myitem'});">我的</a>
+<span class="pipe">|</span><a href="https://fishc.com.cn/home.php?mod=spacecp">设置</a>
+<span class="pipe">|</span><a href="https://fishc.com.cn/home.php?mod=space&amp;do=pm" id="pm_ntc">消息</a>
+<span class="pipe">|</span><a href="https://fishc.com.cn/home.php?mod=space&amp;do=notice" id="myprompt" class="a showmenu" onmouseover="showMenu({'ctrlid':'myprompt'});">提醒</a><span id="myprompt_check"></span>
+<span class="pipe">|</span><a href="member.php?mod=logging&amp;action=logout&amp;formhash=6d535bd3">退出</a>
+</p>
+<p>
+<a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=credit&amp;showcredit=1" id="extcreditmenu" onmouseover="delayShow(this, showCreditmenu);" class="showmenu">积分: 39</a>
+<span class="pipe">|</span><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup" id="g_upmine" class="showmenu" onmouseover="delayShow(this, showUpgradeinfo)">用户组: <font color="#008000">VIP至尊会员</font></a>
+</p>
+</div>
+</div>
+
+<div id="nv">
+<a href="javascript:;" id="qmenu" onmouseover="delayShow(this, function () {showMenu({'ctrlid':'qmenu','pos':'34!','ctrlclass':'a','duration':2});showForummenu(329);})">快捷导航</a>
+<ul><li id="mn_forum" ><a href="https://fishc.com.cn/forum.php?mod=guide" hidefocus="true" title="Guide"   style="font-weight: bold;">导读<span>Guide</span></a></li><li class="a" id="mn_forum_2" ><a href="https://fishc.com.cn/forum.php" hidefocus="true" title="BBS"   style="font-weight: bold;">论坛<span>BBS</span></a></li><li id="mn_home" ><a href="https://fishc.com.cn/home.php" hidefocus="true" title="Space"   style="font-weight: bold;">空间<span>Space</span></a></li><li id="mn_forum_11" ><a href="https://fishc.com.cn/forum.php?mod=collection" hidefocus="true" title="Collection"   style="font-weight: bold;">淘帖<span>Collection</span></a></li><li id="mn_Nc00d" ><a href="bestanswer.php" hidefocus="true" title="S~O~S"   style="font-weight: bold;color: orange">互助平台<span>S~O~S</span></a></li><li id="mn_N642e" ><a href="https://fishc.com.cn/forum-105-1.html" hidefocus="true" title="Books"   style="font-weight: bold;">好书<span>Books</span></a></li><li id="mn_Ne167" ><a href="https://man.ilovefishc.com" hidefocus="true" target="_blank"   style="font-weight: bold;">速查手册</a></li><li id="mn_N4dac" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"><a href="#" hidefocus="true" target="_blank"   style="font-weight: bold;color: orange">VIP通道</a></li><li id="mn_Nac60" ><a href="plugin.php?id=k_misign:sign" hidefocus="true"   style="font-weight: bold;">签到</a></li><li id="mn_N0a47" ><a href="plugin.php?id=keke_chongzhi" hidefocus="true" target="_blank"   style="font-weight: bold;">鱼币充值</a></li><li id="mn_N1370" ><a href="https://item.taobao.com/item.htm?id=528146888326" hidefocus="true" target="_blank"   style="font-weight: bold;color: yellow">账号升级</a></li></ul>
+</div>
+<ul class="p_pop h_pop" id="mn_N4dac_menu" style="display: none"><li><a href="https://fishc.com.cn/thread-51842-1-1.html" hidefocus="true" target="_blank"  style="color: red">教学资源打包（VIP特权）</a></li><li><a href="https://fishc.com.cn/forum-149-1.html" hidefocus="true" target="_blank" >VIP每月领取津贴</a></li><li><a href="http://ilovefishc.com/dvd/vip.html" hidefocus="true" target="_blank" >VIP会员特权一览</a></li></ul><div id="mu" class="cl">
+</div><div id="scbar" class="cl">
+<form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank">
+<input type="hidden" name="mod" id="scbar_mod" value="search" />
+<input type="hidden" name="formhash" value="6d535bd3" />
+<input type="hidden" name="srchtype" value="title" />
+<input type="hidden" name="srhfid" value="329" />
+<input type="hidden" name="srhlocality" value="forum::viewthread" />
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="scbar_icon_td"></td>
+<td class="scbar_txt_td"><input type="text" name="srchtxt" id="scbar_txt" value="请输入搜索内容" autocomplete="off" x-webkit-speech speech /></td>
+<td class="scbar_type_td"><a href="javascript:;" id="scbar_type" class="xg1" onclick="showMenu(this.id)" hidefocus="true">搜索</a></td>
+<td class="scbar_btn_td"><button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="pn pnc" value="true"><strong class="xi2">搜索</strong></button></td>
+<td class="scbar_hot_td">
+<div id="scbar_hot">
+<strong class="xw1">热搜: </strong>
+
+<a href="search.php?mod=forum&amp;srchtxt=%BC%AB%BF%CDPython&amp;formhash=6d535bd3&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">极客Python</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=C%D3%EF%D1%D4%D1%A7%CF%B0%BB%B7%BE%B3&amp;formhash=6d535bd3&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">C语言学习环境</a>
+
+</div>
+</td>
+</tr>
+</table>
+</form>
+</div>
+<ul id="scbar_type_menu" class="p_pop" style="display: none;"><li><a href="javascript:;" rel="curforum" fid="329" >本版</a></li><li><a href="javascript:;" rel="forum" class="curtype">帖子</a></li><li><a href="javascript:;" rel="blog">日志</a></li><li><a href="javascript:;" rel="album">相册</a></li><li><a href="javascript:;" rel="user">用户</a></li></ul>
+<script type="text/javascript">
+initSearchmenu('scbar', '');
+</script>
+</div>
+</div>
+
+
+<div id="wp" class="wp">
+<script type="text/javascript">var fid = parseInt('329'), tid = parseInt('76988');</script>
+
+<script src="data/cache/forum_viewthread.js?F62" type="text/javascript"></script>
+<script type="text/javascript">zoomstatus = parseInt(1);var imagemaxwidth = '880';var aimgcount = new Array();</script>
+
+<style id="diy_style" type="text/css"></style>
+<!--[diy=diynavtop]--><div id="diynavtop" class="area"></div><!--[/diy]-->
+<div id="pt" class="bm cl">
+<div class="z">
+<a href="./" class="nvhm" title="首页">鱼C论坛</a><em>&raquo;</em><a href="https://fishc.com.cn/forum.php">论坛</a> <em>&rsaquo;</em> <a href="https://fishc.com.cn/forum.php?gid=28">技术交流区</a> <em>&rsaquo;</em> <a href="https://fishc.com.cn/forum-38-1.html">C\C++交流</a> <em>&rsaquo;</em> <a href="https://fishc.com.cn/forum.php?mod=forumdisplay&amp;fid=329&amp;page=1&filter=typeid&typeid=570">《带你学C带你飞》【第一季】</a> <em>&rsaquo;</em> <a href="https://fishc.com.cn/thread-76988-1-1.html">S1E28：函数初体验 | 课后测试题及答案</a>
+</div>
+</div>
+
+<!--BS To Baidu OK @2017-10-09 20:47:57--><style id="diy_style" type="text/css"></style>
+<div class="wp">
+<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="ct" class="wp cl">
+<div id="pgt" class="pgs mbm cl ">
+<div class="pgt"><div class="pg"><strong>1</strong><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=2">2</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=3">3</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=4">4</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=5">5</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=6">6</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=7">7</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=8">8</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=9">9</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=10">10</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=30" class="last">... 30</a><label><input type="text" name="custompage" class="px" size="2" title="输入页码，按回车快速跳转" value="1" onkeydown="if(event.keyCode==13) {window.location='forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page='+this.value;; doane(event);}" /><span title="共 30 页"> / 30 页</span></label><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=2" class="nxt">下一页</a></div></div>
+<span class="y pgb" id="visitedforums" onmouseover="$('visitedforums').id = 'visitedforumstmp';this.id = 'visitedforums';showMenu({'ctrlid':this.id,'pos':'34'})"><a href="https://fishc.com.cn/forum.php?mod=forumdisplay&amp;fid=329&amp;page=1&filter=typeid&typeid=570">返回列表</a></span>
+<a id="newspecial" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu({'ctrlid':this.id})" onclick="showWindow('newthread', 'forum.php?mod=post&action=newthread&fid=329')" href="javascript:;" title="发新帖"><img src="static/image/common/pn_post.png" alt="发新帖" /></a><a id="post_reply" onclick="showWindow('reply', 'forum.php?mod=post&action=reply&fid=329&tid=76988')" href="javascript:;" title="回复"><img src="static/image/common/pn_reply.png" alt="回复" /></a>
+</div>
+
+
+
+<div id="postlist" class="pl bm">
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls ptn pbn">
+<div class="hm ptn">
+<span class="xg1">查看:</span> <span class="xi1">6629</span><span class="pipe">|</span><span class="xg1">回复:</span> <span class="xi1">595</span>
+</div>
+</td>
+<td class="plc ptm pbn vwthd">
+<div class="y">
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;action=printable&amp;tid=76988" title="打印" target="_blank"><img src="static/image/common/print.png" alt="打印" class="vm" /></a>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&amp;goto=nextoldset&amp;tid=76988" title="上一主题"><img src="static/image/common/thread-prev.png" alt="上一主题" class="vm" /></a>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&amp;goto=nextnewset&amp;tid=76988" title="下一主题"><img src="static/image/common/thread-next.png" alt="下一主题" class="vm" /></a>
+</div>
+<h1 class="ts">
+<a href="https://fishc.com.cn/forum.php?mod=forumdisplay&amp;fid=329&amp;filter=typeid&amp;typeid=570">[课后作业]</a>
+<span id="thread_subject">S1E28：函数初体验 | 课后测试题及答案</span>
+</h1>
+<span class="xg1">
+&nbsp;<img src="static/image/common/hot_2.gif" alt="" title="热度: 555" />
+<a href="https://fishc.com.cn/thread-76988-1-1.html" onclick="return copyThreadUrl(this, '鱼C论坛')" >[复制链接]</a>
+</span>
+</td>
+</tr>
+</table>
+
+
+<table cellspacing="0" cellpadding="0" class="ad">
+<tr>
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table><div id="post_2679172" ><table id="pid2679172" class="plhin" summary="pid2679172" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2679172" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-9.html" target="_blank" class="xw1" style="color: #00FF7F">小甲鱼</a><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=profile&amp;op=verify&amp;vid=3" target="_blank"><img src="data/attachment/common/ec/common_3_verify_icon.png" class="vm" alt="互助团队" title="互助团队" /></a>
+
+</div>
+</div>
+<div class="p_pop blk bui card_gender_1" id="userinfo2679172" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2679172_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-9.html" target="_blank" class="xi2" style="color: #00FF7F">小甲鱼</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?9" target="_blank" class="xi2">9</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=9&do=blog&view=me&from=space" target="_blank" class="xi2">114</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=9&do=album&view=me&from=space" target="_blank" class="xi2">4</a></dd>
+	<dt>贡献</dt><dd>8620 </dd>
+	<dt>荣誉</dt><dd>25513 </dd>
+	<dt>技术值</dt><dd>364 </dd>	
+</dl><div class="imicn">
+<a href="//wpa.qq.com/msgrd?v=3&amp;uin=205204&amp;site=鱼C论坛&amp;menu=yes&amp;from=discuz" target="_blank" title="QQ"><img src="static/image/common/qq.gif" alt="QQ" /></a><a href="javascript:;" onclick="window.open('//amos.im.alisoft.com/msg.aw?v=2&uid='+encodeURIComponent('dingdingjiayu')+'&site=cntaobao&s=2&charset=utf-8')" title="阿里旺旺"><img src="static/image/common/taobao.gif" alt="阿里旺旺" /></a><a href="http://www.fishc.com" target="_blank" title="查看个人网站"><img src="static/image/common/forumlink.gif" alt="查看个人网站" /></a><a href="https://fishc.com.cn/home.php?mod=space&amp;uid=9&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2679172')"><a href="https://fishc.com.cn/space-uid-9.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=9&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=9" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=9" target="_blank"><font color=red>273</font></a>&nbsp; </dd></dl><p class="md_ctrl"><span class="normalmd"><a href="plugin.php?id=ruri_medal&operation=show&medalid=37" target="_blank"><img src="data/attachment/common/yuanchuanxianfeng.gif" alt="原创先锋 - 原创先锋"  id="md_2679172_37" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_37_menu','pos':'12!'});"/></a><a href="plugin.php?id=ruri_medal&operation=show&medalid=45" target="_blank"><img src="data/attachment/common/rongyuxunzhang.gif" alt="荣誉勋章 - 鱼C荣誉勋章 -- 授予鱼C表现优秀的鱼油！"  id="md_2679172_45" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_45_menu','pos':'12!'});"/></a><a href="plugin.php?id=ruri_medal&operation=show&medalid=49" target="_blank"><img src="data/attachment/common/daren.gif" alt="问答达人 - 问答达人"  id="md_2679172_49" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_49_menu','pos':'12!'});"/></a><a href="plugin.php?id=ruri_medal&operation=show&medalid=18" target="_blank"><img src="data/attachment/common/guanshuidashi.gif" alt="灌水大师 - 发帖数（包含回帖）大于1000"  id="md_2679172_18" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_18_menu','pos':'12!'});"/></a><a href="plugin.php?id=ruri_medal&operation=show&medalid=12" target="_blank"><img src="data/attachment/common/youxiuguanli.gif" alt="优秀管理 - 优秀管理"  id="md_2679172_12" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_12_menu','pos':'12!'});"/></a><a href="plugin.php?id=ruri_medal&operation=show&medalid=13" target="_blank"><img src="data/attachment/common/zhurenweile.gif" alt="乐于助人 - 技术值大于60"  id="md_2679172_13" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_13_menu','pos':'12!'});"/></a><a href="plugin.php?id=ruri_medal&operation=show&medalid=39" target="_blank"><img src="data/attachment/common/xiaoyuchengzhang.gif" alt="小鱼成长 - 小鱼成长"  id="md_2679172_39" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_39_menu','pos':'12!'});"/></a><a href="plugin.php?id=ruri_medal&operation=show&medalid=41" target="_blank"><img src="data/attachment/common/meilisishe.gif" alt="魅力四射 - 魅力四射"  id="md_2679172_41" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_41_menu','pos':'12!'});"/></a><a href="plugin.php?id=ruri_medal&operation=show&medalid=36" target="_blank"><img src="data/attachment/common/zaixianzhiwang.gif" alt="在线之王 - 在线时间超过1000小时"  id="md_2679172_36" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_36_menu','pos':'12!'});"/></a></span></p><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=9&do=thread&type=thread&view=me&from=space" class="xi2">2849</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=9&do=thread&type=reply&view=me&from=space" class="xi2"><span title="14582">1万</span></a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=9&do=profile" class="xi2"><span title="25513">2万</span></a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=1" target="_blank"><img src="data/attachment/common/c4/common_1_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=1" target="_blank"><font color="#00FF7F">管理员</font></a></em></p>
+<p class="xg1">鱼C - 小甲鱼</p>
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 40" /><img src="static/image/common/star_level3.gif" alt="Rank: 40" /><img src="static/image/common/star_level3.gif" alt="Rank: 40" /><img src="static/image/common/star_level3.gif" alt="Rank: 40" /><img src="static/image/common/star_level2.gif" alt="Rank: 40" /><img src="static/image/common/star_level1.gif" alt="Rank: 40" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>技术值</dt><dd>364 </dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_9&amp;touid=9&amp;pmid=0&amp;daterange=2&amp;pid=2679172&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<div id="fj" class="y">
+<label class="z">电梯直达</label>
+<input type="text" class="px p_fre z" size="2" onkeyup="$('fj_btn').href='forum.php?mod=redirect&ptid=76988&authorid=0&postno='+this.value" onkeydown="if(event.keyCode==13) {window.location=$('fj_btn').href;return false;}" title="跳转到指定楼层" />
+<a href="javascript:;" id="fj_btn" class="z" title="跳转到指定楼层"><img src="static/image/common/fj_btn.png" alt="跳转到指定楼层" class="vm" /></a>
+</div>
+<strong>
+<a href="https://fishc.com.cn/thread-76988-1-1.html"   id="postnum2679172" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>1</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2679172" src="static/image/common/online_admin.gif" />
+<em id="authorposton2679172">发表于 2016-10-7 02:26:52</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=9" rel="nofollow">只看该作者</a>
+<span class="pipe">|</span><a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;from=album">只看大图</a>
+<span class="none"><img src="static/image/common/arw_r.gif" class="vm" alt="回帖奖励" /></span>
+<span class="pipe show">|</span><a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;ordertype=1"  class="show">倒序浏览</a>
+<span class="pipe show">|</span><a href="javascript:;" onclick="readmode($('thread_subject').innerHTML, 2679172);" class="show">阅读模式</a>
+</div>
+</div>
+</div><div class="pct"><style type="text/css">.pcb{margin-right:0}</style><div class="pcb">
+ 
+<div class="locked"><em class="y"><a href="https://fishc.com.cn/forum.php?mod=misc&amp;action=viewpayments&amp;tid=76988" onclick="showWindow('pay', this.href)">记录</a></em>付费主题, 价格: <strong>10 鱼币 </strong></div>
+<div class="t_fsz">
+<table cellspacing="0" cellpadding="0"><tr><td class="t_f" id="postmessage_2679172">
+<strong>《带你学C带你飞》第一季视频下载地址：</strong><a href="http://blog.fishc.com/category/c/c_season1" target="_blank">传送门</a><font color="#ffffff">:MNU&lt;#7gq</font><br />
+<font color="#ffffff">iXN-Wn_+`HoJv$T&quot;;Ddkp9</font><br />
+<font color="#ffffff">P Y6Sr&quot;N4U)2~_&lt;j$vfl;</font><br />
+<strong>测试题：</strong><font color="#ffffff">版权属于：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<font color="#ffffff">xsPZ]~X.$#u8I4m&lt;ol-v73=R1</font><br />
+0. 请按顺序标示出指定语句的执行顺序（如 A -&gt; B -&gt; C -&gt; D）<font color="#ffffff">^1.t!4Np2</font><br />
+<font color="#ffffff">q%Z;k)7X PD&lt;-_jH&quot;yEvFt</font><br /><div class="blockcode"><div id="code_Rha"><ol><li>#include &lt;stdio.h&gt;<br /><li><br /><li>void a();<br /><li>void b();<br /><li>void c();<br /><li><br /><li>void a()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;; // A<br /><li>}<br /><li><br /><li>int main()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;b(); // B<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;a(); // C<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;c(); // D<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return 0;<br /><li>}<br /><li><br /><li>void c()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;; // E<br /><li>}<br /><li><br /><li>void b()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;; // F<br /><li>}</ol></div><em onclick="copycode($('code_Rha'));">复制代码</em></div><br />
+<font color="#ffffff">*O1z+&quot;$][M=Xs|QK~9eV-icU}&lt;Jq</font><br />
+1. 请指出下面定义中出错的地方（有5处错误）：<font color="#ffffff">-f&lt;wx %]u</font><br />
+<font color="#ffffff">0u)?2`~OG3(|.HyX,'A;#&lt;p</font><br /><div class="blockcode"><div id="code_X4O"><ol><li>#include &lt;stdio.h&gt;<br /><li><br /><li>void func()<br /><li><br /><li>int main()<br /><li>{&nbsp; &nbsp;&nbsp; &nbsp; <br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;func();<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return O;<br /><li>}<br /><li><br /><li>void func()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;print(&quot;I love FishC.com!\n&quot;);<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return 0;<br /><li>};</ol></div><em onclick="copycode($('code_X4O'));">复制代码</em></div><br />
+<font color="#ffffff">uQZ=%vtYSFRo ]*:-&lt;X&gt;&amp;^(s0x,hd</font><br />
+2. 函数的声明有什么用？<font color="#ffffff">版权属于：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<font color="#ffffff">f,2N0LaHS{1-uDVK&amp;]evz4sio7k:</font><br />
+<font color="#ffffff">oVd?=M295eDYn.L@`aB~rG:uv+</font><br />
+3. 函数是否必须声明才能使用？<font color="#ffffff">Powered by <a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<font color="#ffffff">nq}aKI04Ycf]ZU.&gt;&amp;p*1,8%</font><br />
+<font color="#ffffff">MUynikc(=[O]|fpz+.A)LJa73x,:</font><br />
+4. 如果定义一个与标准库函数重名的函数，会这样？<font color="#ffffff">.oirD2xB</font><br />
+<font color="#ffffff">yw`m-pSkq^]oIX&lt;GTQ[l0P</font><br />
+<font color="#ffffff">dvjpJ*&lt;6)&gt;zVtK`mgl.C&quot;},HI</font><br />
+<strong>动动手：</strong><font color="#ffffff">版权属于：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<font color="#ffffff">G2B7Jl&quot;8{9]&lt; oreQM@,|d.(?K</font><br />
+0. 课堂中我们通过调用自己定义的 print_C 函数来打印一个大大的字母 C，现在要求大家自己写几个类似的函数并调用它们。<font color="#ffffff">:&gt;KZ;J[</font><br />
+<font color="#ffffff">0PX]&quot;?b;(D:i31mU,*Lq#</font><br />
+程序实现如下：<font color="#ffffff">版权属于：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<font color="#ffffff">&amp;`%gq6f'Ab*alYm#vU.3k$</font><br />
+
+<ignore_js_op>
+
+<img id="aimg_57187" aid="57187" src="static/image/common/none.gif" zoomfile="https://xxx.ilovefishc.com/forum/201612/25/234327pdx0t092ifosx8pp.png" file="https://xxx.ilovefishc.com/forum/201612/25/234327pdx0t092ifosx8pp.png" class="zoom" onclick="zoom(this, this.src, 0, 0, 0)" width="880" id="aimg_57187" inpost="1" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" />
+
+<div class="tip tip_4 aimg_tip" id="aimg_57187_menu" style="position: absolute; display: none" disautofocus="true">
+<div class="xs0">
+<p><strong>DDS01.png</strong> <em class="xg1">(14.1 KB, 下载次数: 0)</em></p>
+<p>
+<a href="https://fishc.com.cn/forum.php?mod=attachment&amp;aid=NTcxODd8ZDM2MTNmMTJ8MTU2MjM5MDMzMXw2NzAxMzR8NzY5ODg%3D&amp;nothumb=yes" target="_blank">下载附件</a>
+
+&nbsp;<a href="javascript:;" onclick="showWindow(this.id, this.getAttribute('url'), 'get', 0);" id="savephoto_57187" url="home.php?mod=spacecp&amp;ac=album&amp;op=saveforumphoto&amp;aid=57187&amp;handlekey=savephoto_57187">保存到相册</a>
+
+</p>
+
+<p class="xg1 y">2016-12-25 23:43 上传</p>
+
+</div>
+<div class="tip_horn"></div>
+</div>
+
+</ignore_js_op>
+<br />
+<font color="#ffffff">L*uNU_v5~#&quot;PZdcAz!}t2&amp;b&gt;Y</font><br />
+<font color="#ffffff">Ab)5jwS$c8R^aU@G(Bi,|:kHV3X</font><br />
+1. 能不能让字母横向打印？像下面这样：<font color="#ffffff">wp7;(a</font><br />
+<font color="#ffffff">dEn#)-SGMci&gt;9VNYX:lZ</font><br />
+
+<ignore_js_op>
+
+<img id="aimg_57188" aid="57188" src="static/image/common/none.gif" zoomfile="https://xxx.ilovefishc.com/forum/201612/25/234439i76yod8ehy9ea87f.png" file="https://xxx.ilovefishc.com/forum/201612/25/234439i76yod8ehy9ea87f.png" class="zoom" onclick="zoom(this, this.src, 0, 0, 0)" width="880" id="aimg_57188" inpost="1" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" />
+
+<div class="tip tip_4 aimg_tip" id="aimg_57188_menu" style="position: absolute; display: none" disautofocus="true">
+<div class="xs0">
+<p><strong>DDS11.png</strong> <em class="xg1">(11.02 KB, 下载次数: 0)</em></p>
+<p>
+<a href="https://fishc.com.cn/forum.php?mod=attachment&amp;aid=NTcxODh8NjgzMDBmNGN8MTU2MjM5MDMzMXw2NzAxMzR8NzY5ODg%3D&amp;nothumb=yes" target="_blank">下载附件</a>
+
+&nbsp;<a href="javascript:;" onclick="showWindow(this.id, this.getAttribute('url'), 'get', 0);" id="savephoto_57188" url="home.php?mod=spacecp&amp;ac=album&amp;op=saveforumphoto&amp;aid=57188&amp;handlekey=savephoto_57188">保存到相册</a>
+
+</p>
+
+<p class="xg1 y">2016-12-25 23:44 上传</p>
+
+</div>
+<div class="tip_horn"></div>
+</div>
+
+</ignore_js_op>
+<br />
+<font color="#ffffff">j^TtFd?*4(GRwv[%gLzK+MsnP</font><br />
+注意，为了防止你偷懒直接定义一个“FISHC”的字符串打印，我们这道题要求可以定制字母的间隔：<font color="#ffffff">3^#~+</font><br />
+<font color="#ffffff">xPja3=94O2(BV5L;*l?!CR_-orTuy6</font><br />
+
+<ignore_js_op>
+
+<img id="aimg_57189" aid="57189" src="static/image/common/none.gif" zoomfile="https://xxx.ilovefishc.com/forum/201612/25/234521p0y6dmxys5y5hh5h.png" file="https://xxx.ilovefishc.com/forum/201612/25/234521p0y6dmxys5y5hh5h.png" class="zoom" onclick="zoom(this, this.src, 0, 0, 0)" width="880" id="aimg_57189" inpost="1" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" />
+
+<div class="tip tip_4 aimg_tip" id="aimg_57189_menu" style="position: absolute; display: none" disautofocus="true">
+<div class="xs0">
+<p><strong>DDS12.png</strong> <em class="xg1">(11.04 KB, 下载次数: 2)</em></p>
+<p>
+<a href="https://fishc.com.cn/forum.php?mod=attachment&amp;aid=NTcxODl8Yzg3ZDg3YzN8MTU2MjM5MDMzMXw2NzAxMzR8NzY5ODg%3D&amp;nothumb=yes" target="_blank">下载附件</a>
+
+&nbsp;<a href="javascript:;" onclick="showWindow(this.id, this.getAttribute('url'), 'get', 0);" id="savephoto_57189" url="home.php?mod=spacecp&amp;ac=album&amp;op=saveforumphoto&amp;aid=57189&amp;handlekey=savephoto_57189">保存到相册</a>
+
+</p>
+
+<p class="xg1 y">2016-12-25 23:45 上传</p>
+
+</div>
+<div class="tip_horn"></div>
+</div>
+
+</ignore_js_op>
+<br />
+<font color="#ffffff">%P=mj{C!MhoSG;:+gNc$t&quot;Ys&gt;}K(</font><br />
+提示1：由于要实现横向输出所有字符，所以思路跟上一题是完全不同的。<font color="#ffffff">u:{4G</font><br />
+<font color="#ffffff">U&amp;[:WOj^vQ_}Nf&gt;kq,K+2iyh]AG</font><br />
+提示2：这道题看上去很容易，但做起来不一定轻松（不会超纲的，相信自己可以独立完成）<font color="#ffffff">Vp^em@!sO</font><br />
+<font color="#ffffff">d&quot;k&lt;oH*2,JyCLn#X+4F.0=}</font><br />
+<font color="#ffffff">CW:E-BP$z.,R^~sVq?&quot;k%1u</font><br />
+<font color="#ffffff">mrT;b#Q21%NshVDGI!,3Y(^&gt;</font><br />
+<font size="4"><strong><font color="Red">图一时之快先看答案，你将失去一次锻炼的机会！<font color="#ffffff">R_&gt;SCbAD~H</font><br />
+<font color="#ffffff">oA{SL3:ebXcu^[Ua2_'qi</font><br />
+请先自己思考和动手，再回复查看参考答案！</font></strong></font><font color="#ffffff">^(WAMb)r.8</font><br />
+<font color="#ffffff">b:a$PEIKj0G[2US8qW}ykT&lt;&quot;,1#'</font><br />
+<font color="#ffffff">:+&gt;ko9B(?wPN-.|0ZTctp8g#Q)=M_</font><br />
+<font color="#ffffff">rSb9E`%xq&quot;)A;&lt;#il4,.PB</font><br />
+<strong>测试题答案：</strong><font color="#ffffff">版权属于：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<div class="showhide"><h4>本帖隐藏的内容</h4><font color="#ffffff">Powered by <a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<strong>0. 请按顺序标示出指定语句的执行顺序（如 A -&gt; B -&gt; C -&gt; D）</strong><font color="#ffffff">tQRJ2!b$7~</font><br />
+<font color="#ffffff">4IZ9:1rb#e(zX&lt;*ps8K-,3DQfO]&amp;c</font><br /><div class="blockcode"><div id="code_f9N"><ol><li>#include &lt;stdio.h&gt;<br /><li><br /><li>void a();<br /><li>void b();<br /><li>void c();<br /><li><br /><li>void a()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;; // A<br /><li>}<br /><li><br /><li>int main()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;b(); // B<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;a(); // C<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;c(); // D<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return 0;<br /><li>}<br /><li><br /><li>void c()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;; // E<br /><li>}<br /><li><br /><li>void b()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;; // F<br /><li>}</ol></div><em onclick="copycode($('code_f9N'));">复制代码</em></div><br />
+答：B -&gt; F -&gt; C -&gt; A -&gt; D -&gt; E<font color="#ffffff">kpS{:2d</font><br />
+<font color="#ffffff">V|zj7Ru(v`tU'mZkX)y 56qTl&gt;x</font><br />
+<i>注：什么都没有只写一个分号（;）表示这是一个空语句，什么也不做。</i><font color="#ffffff">Y`&gt;!XZt</font><br />
+<font color="#ffffff">SKZ`HvJIt.-+y(&gt;b)BA@dq</font><br />
+<font color="#ffffff">LK6Mm%WIl9)V_QNqb&amp;7f</font><br />
+<strong>1. 请指出下面定义中出错的地方（有5处错误）：</strong><font color="#ffffff">HlfA&gt;XC+</font><br />
+<font color="#ffffff">1^%CMX3_O,9t&lt;E&amp;J-@GpFz5)#V</font><br /><div class="blockcode"><div id="code_zze"><ol><li>#include &lt;stdio.h&gt;<br /><li><br /><li>void func()<br /><li><br /><li>int main()<br /><li>{&nbsp; &nbsp;&nbsp; &nbsp; <br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;func();<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return O;<br /><li>}<br /><li><br /><li>void func()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;print(&quot;I love FishC.com!\n&quot;);<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return 0;<br /><li>};</ol></div><em onclick="copycode($('code_zze'));">复制代码</em></div><br />
+答：正确的代码如下，错误原因见注释。<font color="#ffffff">来自：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<font color="#ffffff">gLmy7]6=+&lt;4cl8DzOH-*P?</font><br /><div class="blockcode"><div id="code_Po8"><ol><li>#include &lt;stdio.h&gt;<br /><li><br /><li>void func(); // A. 声明语句需要分号结束<br /><li><br /><li>int main()<br /><li>{&nbsp; &nbsp;&nbsp; &nbsp; <br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;func();<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return O; // B. 返回数字0不是字母0<br /><li>}<br /><li><br /><li>void func()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;print(&quot;I love FishC.com!\n&quot;); // C. 格式化输出的标准库函数是printf<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return 0; // D. 返回值是void的函数不需要使用return语句返回<br /><li>} // E. 这里不应该加分号</ol></div><em onclick="copycode($('code_Po8'));">复制代码</em></div><br />
+<font color="#ffffff">nwp )R6Kc@'?sTl%D7Fj</font><br />
+<strong>2. 函数的声明有什么用？</strong><font color="#ffffff">y0si$1pI)</font><br />
+<font color="#ffffff">c%x0:LTtKF+}UIXJ|Z$f7@yP</font><br />
+答：所谓声明（Declaration），就是告诉编译器我要使用这个函数，你现在没有找到它的定义不要紧，请不要报错，稍后我会把定义补上。<font color="#ffffff">7vJTzQ</font><br />
+<font color="#ffffff">h48&lt;,_lczgsZSjM9xa3Rfu</font><br />
+有时候，你可能会发现及时不写函数的声明，程序也是可以正常执行的。但如果你把函数的定义写在调用之后，那么编译器可能就会找不着北了：<font color="#ffffff">8x0&quot;mg</font><br />
+<font color="#ffffff">Phaf&quot;=3z2# :7LG0_X^C</font><br /><div class="blockcode"><div id="code_mTJ"><ol><li>#include &lt;stdio.h&gt;<br /><li><br /><li>int main()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;print_C();<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return 0;<br /><li>}<br /><li><br /><li>void print_C()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ###### \n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ###### \n&quot;);<br /><li>}</ol></div><em onclick="copycode($('code_mTJ'));">复制代码</em></div><br />
+程序执行后会弹出提醒（一些比较旧的编译器甚至会报错）：<font color="#ffffff">?=$oLJa</font><br />
+<font color="#ffffff">-!luo)cUQ?yM#&gt;v9^h2[GVSB3</font><br />
+
+<ignore_js_op>
+
+<img id="aimg_57190" aid="57190" src="static/image/common/none.gif" zoomfile="https://xxx.ilovefishc.com/forum/201612/25/234905t5zrbavatjr5ujuw.png" file="https://xxx.ilovefishc.com/forum/201612/25/234905t5zrbavatjr5ujuw.png" class="zoom" onclick="zoom(this, this.src, 0, 0, 0)" width="880" id="aimg_57190" inpost="1" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" />
+
+<div class="tip tip_4 aimg_tip" id="aimg_57190_menu" style="position: absolute; display: none" disautofocus="true">
+<div class="xs0">
+<p><strong>C21.png</strong> <em class="xg1">(14.83 KB, 下载次数: 0)</em></p>
+<p>
+<a href="https://fishc.com.cn/forum.php?mod=attachment&amp;aid=NTcxOTB8ODkxZWI3OTF8MTU2MjM5MDMzMXw2NzAxMzR8NzY5ODg%3D&amp;nothumb=yes" target="_blank">下载附件</a>
+
+&nbsp;<a href="javascript:;" onclick="showWindow(this.id, this.getAttribute('url'), 'get', 0);" id="savephoto_57190" url="home.php?mod=spacecp&amp;ac=album&amp;op=saveforumphoto&amp;aid=57190&amp;handlekey=savephoto_57190">保存到相册</a>
+
+</p>
+
+<p class="xg1 y">2016-12-25 23:49 上传</p>
+
+</div>
+<div class="tip_horn"></div>
+</div>
+
+</ignore_js_op>
+<br />
+<font color="#ffffff">DB}!g#AkCEKwYo&quot;i;bf[mcGMe:5WXq</font><br />
+这是因为程序的编译时从上到下执行的，所以从原则上来说，函数必须“先定义，再调用”。向上边例子反其道而行就会出问题。但在实际开发中，经常会在函数定义之前使用它们，这个时候就需要提前声明。<font color="#ffffff">`^]Ufs</font><br />
+<font color="#ffffff">k?iGNp&gt;v'[2=%rE*&amp;yWSso</font><br />
+<font color="#ffffff">;$j1WuE(N_&amp;i.,+xazTfX?mYS5O</font><br />
+<strong>3. 函数是否必须声明才能使用？</strong><font color="#ffffff">x{Lb8c=</font><br />
+<font color="#ffffff">9Hu:?.`Rk&quot;s{i;oYQ_F~=W</font><br />
+答：对于函数来说，必须“先定义，再调用”。但声明却不是必须的，只要“被调用函数”的定义在“调用函数”之前即可。但是，<strong><font color="Red">作为一个良好的编程习惯，建议大家还是无论如何都把函数的声明写上比较合适。</font></strong><font color="#ffffff">N+,]^zE)</font><br />
+<font color="#ffffff">KR]&quot; v?o%(eLiu;r_:4{=7k2</font><br />
+<font color="#ffffff">QI)=s&amp;{?qY&gt;MOt[E3v8a</font><br />
+<strong>4. 如果定义一个与标准库函数重名的函数，会这样？</strong><font color="#ffffff">mx:0l=G3u</font><br />
+<font color="#ffffff">sOw@pZb2&amp;=i7|&quot;J:I%)1&gt;3fE</font><br />
+答：重新定义的同名函数会覆盖标准库函数（前提是两者的声明一致，包括返回值和参数类型、个数一致）。<font color="#ffffff">B1eR)7z|</font><br />
+<font color="#ffffff">m'_LC~d`P&amp;WR$?+o1:8nGFZkz .u</font><br />
+比如下面我们把 putchar 函数给覆盖掉：<font color="#ffffff">:B$`@jc&gt;*</font><br />
+<font color="#ffffff">8DI'bKWyR2|7#oe}`Zl{=^EOSPg&quot;</font><br /><div class="blockcode"><div id="code_hQ5"><ol><li>#include &lt;stdio.h&gt;<br /><li><br /><li>int putchar(int c);<br /><li><br /><li>int putchar(int c)<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;FishC\n&quot;);<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return c;<br /><li>}<br /><li><br /><li>int main(void)<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;putchar('H');<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return 0;<br /><li>}</ol></div><em onclick="copycode($('code_hQ5'));">复制代码</em></div><br />
+程序实现如下：<font color="#ffffff">来自：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<font color="#ffffff">2'Wktf$RKQS,l(DP]~j%</font><br />
+
+<ignore_js_op>
+
+<img id="aimg_57191" aid="57191" src="static/image/common/none.gif" zoomfile="https://xxx.ilovefishc.com/forum/201612/25/235005dhlodo1r4cyym44l.png" file="https://xxx.ilovefishc.com/forum/201612/25/235005dhlodo1r4cyym44l.png" class="zoom" onclick="zoom(this, this.src, 0, 0, 0)" width="880" id="aimg_57191" inpost="1" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" />
+
+<div class="tip tip_4 aimg_tip" id="aimg_57191_menu" style="position: absolute; display: none" disautofocus="true">
+<div class="xs0">
+<p><strong>C41.png</strong> <em class="xg1">(3.85 KB, 下载次数: 0)</em></p>
+<p>
+<a href="https://fishc.com.cn/forum.php?mod=attachment&amp;aid=NTcxOTF8Y2U0OTI0Nzl8MTU2MjM5MDMzMXw2NzAxMzR8NzY5ODg%3D&amp;nothumb=yes" target="_blank">下载附件</a>
+
+&nbsp;<a href="javascript:;" onclick="showWindow(this.id, this.getAttribute('url'), 'get', 0);" id="savephoto_57191" url="home.php?mod=spacecp&amp;ac=album&amp;op=saveforumphoto&amp;aid=57191&amp;handlekey=savephoto_57191">保存到相册</a>
+
+</p>
+
+<p class="xg1 y">2016-12-25 23:50 上传</p>
+
+</div>
+<div class="tip_horn"></div>
+</div>
+
+</ignore_js_op>
+</div><br />
+<font color="#ffffff">来自：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<font color="#ffffff">shaxL5Co9!P*rJ+(2tD-8Y</font><br />
+<strong>动动手答案：</strong><font color="#ffffff">版权属于：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<div class="showhide"><h4>本帖隐藏的内容</h4><font color="#ffffff">版权属于：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<strong>0. 代码清单：</strong><font color="#ffffff">来自：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<font color="#ffffff">%p9|1h:N]=f&gt;K57#Dra^32e-E</font><br /><div class="blockcode"><div id="code_ew7"><ol><li>#include &lt;stdio.h&gt;<br /><li><br /><li>void print_F();<br /><li>void print_I();<br /><li>void print_S();<br /><li>void print_H();<br /><li>void print_C();<br /><li><br /><li>int main()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;print_F();<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;print_I();<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;print_S();<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;print_H();<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;print_C();<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;\n&quot;);<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return 0;<br /><li>}<br /><li><br /><li>void print_F()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;########\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;######&nbsp;&nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>}<br /><li><br /><li>void print_I()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;####\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ## \n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ## \n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ## \n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ## \n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ## \n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;####\n&quot;);<br /><li>}<br /><li><br /><li>void print_S()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ###### \n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ###### \n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;&nbsp; &nbsp;&nbsp; &nbsp;##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ###### \n&quot;);<br /><li>}<br /><li><br /><li>void print_H()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;########\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>}<br /><li><br /><li>void print_C()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ###### \n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp;&nbsp; &nbsp;\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;##&nbsp; &nbsp; ##\n&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot; ###### \n&quot;);<br /><li>}</ol></div><em onclick="copycode($('code_ew7'));">复制代码</em></div><br />
+<font color="#ffffff">$wOeYDvgL=m[a_zR;o+&amp;</font><br />
+<strong>1. 代码清单：</strong><font color="#ffffff">来自：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<font color="#ffffff">q?&lt;Aefc&gt;9h&amp;^&quot;vl|+bpWSnF)dP</font><br /><div class="blockcode"><div id="code_HMb"><ol><li>#include &lt;stdio.h&gt;<br /><li>#include &lt;string.h&gt;<br /><li><br /><li>#define HEIGHT 7&nbsp;&nbsp;// 根据下面定义，每个字母高度均是7行<br /><li><br /><li>const char *letters[] = {<br /><li>&quot;\<br /><li>\########@\<br /><li>\##&nbsp; &nbsp;&nbsp; &nbsp;@\<br /><li>\##&nbsp; &nbsp;&nbsp; &nbsp;@\<br /><li>\######&nbsp;&nbsp;@\<br /><li>\##&nbsp; &nbsp;&nbsp; &nbsp;@\<br /><li>\##&nbsp; &nbsp;&nbsp; &nbsp;@\<br /><li>\##&nbsp; &nbsp;&nbsp; &nbsp;@\<br /><li>&quot;,<br /><li>&quot;\<br /><li>\####@\<br /><li>\ ## @\<br /><li>\ ## @\<br /><li>\ ## @\<br /><li>\ ## @\<br /><li>\ ## @\<br /><li>\####@\<br /><li>&quot;,<br /><li>&quot;\<br /><li>\ ###### @\<br /><li>\##&nbsp; &nbsp; ##@\<br /><li>\##&nbsp; &nbsp;&nbsp; &nbsp;@\<br /><li>\ ###### @\<br /><li>\&nbsp; &nbsp;&nbsp; &nbsp;##@\<br /><li>\##&nbsp; &nbsp; ##@\<br /><li>\ ###### @\<br /><li>&quot;,<br /><li>&quot;\<br /><li>\##&nbsp; &nbsp;&nbsp;&nbsp;##@\<br /><li>\##&nbsp; &nbsp;&nbsp;&nbsp;##@\<br /><li>\##&nbsp; &nbsp;&nbsp;&nbsp;##@\<br /><li>\#########@\<br /><li>\##&nbsp; &nbsp;&nbsp;&nbsp;##@\<br /><li>\##&nbsp; &nbsp;&nbsp;&nbsp;##@\<br /><li>\##&nbsp; &nbsp;&nbsp;&nbsp;##@\<br /><li>&quot;,<br /><li>&quot;\<br /><li>\ ###### @\<br /><li>\##&nbsp; &nbsp; ##@\<br /><li>\##&nbsp; &nbsp;&nbsp; &nbsp;@\<br /><li>\##&nbsp; &nbsp;&nbsp; &nbsp;@\<br /><li>\##&nbsp; &nbsp;&nbsp; &nbsp;@\<br /><li>\##&nbsp; &nbsp; ##@\<br /><li>\ ###### @\<br /><li>&quot;<br /><li>};<br /><li><br /><li>int main()<br /><li>{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;int i, j;<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;int gap;<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;printf(&quot;请输入字母的间隔(空格数)：&quot;);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;scanf(&quot;%d&quot;, &amp;gap);<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;// 一行一行打印<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;for (i = 0; i &lt; HEIGHT; i++)<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // 打印所有字母的某一行<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; for (j = 0; j &lt; 5; j++)<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; {<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;// k 用于迭代每一行的‘#’字符<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;int k = 0;<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;// 计算出该字母每一行有多少个字符<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;int len = strlen(letters[j]) / HEIGHT;<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;// 计算当前打印第几行<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;int line = i * len;<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;// @标志着该行结束<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;while (letters[j][line+k] != '@')<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;putchar(letters[j][line+k]);<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;k++;<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;}<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;// 打印字母间的间隔(空格)<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;int temp = gap;<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;while (temp--)<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;{<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;putchar(' ');<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;}<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; }<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; putchar('\n');<br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;}<br /><li><br /><li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;return 0;<br /><li>}</ol></div><em onclick="copycode($('code_HMb'));">复制代码</em></div><br />
+继续努力学下去，将来我教你做能够在屏幕上滚来滚去的字母 <img src="static/image/smiley/ARU/aru-1x-2_173.png" smilieid="248" border="0" alt="" /> <font color="#ffffff">6{1idB</font></div><br />
+<font color="#ffffff">来自：<a href="http://bbs.fishc.com" target="_blank"><font color="#ffffff">bbs.fishc.com</font></a></font><br />
+<font color="#ffffff">ej&quot;5[=m3;L.hTRic2s#uZ&amp;WN*~k|</font><br />
+<font color="#ffffff">ef]~`tZs|l#*21[kNr=w+q</font><br />
+</td></tr></table>
+
+
+</div>
+<div id="comment_2679172" class="cm">
+</div>
+
+<h3 class="psth xs1"><span class="icon_ring vm"></span>评分</h3>
+<dl id="ratelog_2679172" class="rate">
+<dd style="margin:0">
+<div id="post_rate_2679172"></div>
+<table class="ratl">
+<tr>
+<th class="xw1" width="120"><a href="https://fishc.com.cn/forum.php?mod=misc&amp;action=viewratings&amp;tid=76988&amp;pid=2679172" onclick="showWindow('viewratings', this.href)" title="查看全部评分"> 参与人数 <span class="xi1">9</span></a></th><th class="xw1" width="80">荣誉 <i><span class="xi1">+38</span></i></th>
+<th class="xw1" width="80">鱼币 <i><span class="xi1">+24</span></i></th>
+<th class="xw1" width="80">贡献 <i><span class="xi1">+18</span></i></th>
+<th>
+<a href="javascript:;" onclick="toggleRatelogCollapse('ratelog_2679172', this);" class="y xi2 op">收起</a>
+<i class="txt_h">理由</i>
+</th>
+</tr>
+<tbody class="ratl_l"><tr id="rate_2679172_668545">
+<td>
+<a href="https://fishc.com.cn/space-uid-668545.html" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=668545&size=small" /></a> <a href="https://fishc.com.cn/space-uid-668545.html" target="_blank">dicce</a>
+</td><td class="xi1"> + 3</td>
+<td class="xi1"> + 3</td>
+<td class="xi1"> + 3</td>
+<td class="xg1">为什么STRLEN(LETTERS[J])出来的值是9啊;不.</td>
+</tr>
+<tr id="rate_2679172_639338">
+<td>
+<a href="https://fishc.com.cn/space-uid-639338.html" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=639338&size=small" /></a> <a href="https://fishc.com.cn/space-uid-639338.html" target="_blank">baivip</a>
+</td><td class="xi1"> + 5</td>
+<td class="xi1"> + 5</td>
+<td class="xi1"> + 3</td>
+<td class="xg1">printf(&amp;amp;quot;########&amp;amp;quot;);while(i--){</td>
+</tr>
+<tr id="rate_2679172_623854">
+<td>
+<a href="https://fishc.com.cn/space-uid-623854.html" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=623854&size=small" /></a> <a href="https://fishc.com.cn/space-uid-623854.html" target="_blank">Ninth</a>
+</td><td class="xi1"> + 5</td>
+<td class="xi1"> + 5</td>
+<td class="xi1"> + 3</td>
+<td class="xg1">感谢楼主无私奉献！</td>
+</tr>
+<tr id="rate_2679172_643214">
+<td>
+<a href="https://fishc.com.cn/space-uid-643214.html" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=643214&size=small" /></a> <a href="https://fishc.com.cn/space-uid-643214.html" target="_blank">13855863322</a>
+</td><td class="xi1"> + 5</td>
+<td class="xi1"> + 1</td>
+<td class="xg1"></td>
+<td class="xg1">怎么一直有个错误啊 说少个“；”</td>
+</tr>
+<tr id="rate_2679172_588363">
+<td>
+<a href="https://fishc.com.cn/space-uid-588363.html" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=588363&size=small" /></a> <a href="https://fishc.com.cn/space-uid-588363.html" target="_blank">我是个汉子</a>
+</td><td class="xi1"> + 5</td>
+<td class="xg1"></td>
+<td class="xi1"> + 3</td>
+<td class="xg1"></td>
+</tr>
+<tr id="rate_2679172_587849">
+<td>
+<a href="https://fishc.com.cn/space-uid-587849.html" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=587849&size=small" /></a> <a href="https://fishc.com.cn/space-uid-587849.html" target="_blank">吃鱼的虾</a>
+</td><td class="xg1"></td>
+<td class="xi1"> + 5</td>
+<td class="xg1"></td>
+<td class="xg1">打赏的一楼涉嫌剧透</td>
+</tr>
+<tr id="rate_2679172_592717">
+<td>
+<a href="https://fishc.com.cn/space-uid-592717.html" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=592717&size=small" /></a> <a href="https://fishc.com.cn/space-uid-592717.html" target="_blank">1245777533</a>
+</td><td class="xi1"> + 5</td>
+<td class="xg1"></td>
+<td class="xi1"> + 3</td>
+<td class="xg1">这个没想到去用数组和指针怎么办。。。。。</td>
+</tr>
+<tr id="rate_2679172_469765">
+<td>
+<a href="https://fishc.com.cn/space-uid-469765.html" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=469765&size=small" /></a> <a href="https://fishc.com.cn/space-uid-469765.html" target="_blank">767756862</a>
+</td><td class="xi1"> + 5</td>
+<td class="xg1"></td>
+<td class="xg1"></td>
+<td class="xg1"></td>
+</tr>
+<tr id="rate_2679172_426326">
+<td>
+<a href="https://fishc.com.cn/space-uid-426326.html" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=426326&size=small" /></a> <a href="https://fishc.com.cn/space-uid-426326.html" target="_blank">HUHA</a>
+</td><td class="xi1"> + 5</td>
+<td class="xi1"> + 5</td>
+<td class="xi1"> + 3</td>
+<td class="xg1">感谢楼主无私奉献！</td>
+</tr>
+</tbody>
+</table>
+<p class="ratc">
+<a href="https://fishc.com.cn/forum.php?mod=misc&amp;action=viewratings&amp;tid=76988&amp;pid=2679172" onclick="showWindow('viewratings', this.href)" title="查看全部评分" class="xi2">查看全部评分</a>
+</p>
+</dd>
+</dl>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div id="p_btn" class="mtw mbm hm cl">
+<div class="tshare cl">
+<b>分享到:&nbsp;</b>
+
+<a href="javascript:;" onclick="showWindow('wechat_share', 'plugin.php?id=wechat:qrcode&threadqr=76988&access=yes&share=yes')"><i><img src="source/plugin/wechat/image/share.png" alt="微信" />微信</i></a>
+
+
+
+</div>
+
+<a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=favorite&amp;type=thread&amp;id=76988&amp;formhash=6d535bd3" id="k_favorite" onclick="showWindow(this.id, this.href, 'get', 0);" onmouseover="this.title = $('favoritenumber').innerHTML + ' 人收藏'" title="收藏本帖"><i><img src="static/image/common/fav.gif" alt="收藏" />收藏<span id="favoritenumber">2</span></i></a>
+<a href="javascript:;" id="ak_rate" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2679172', 'get', -1);return false;" title="评分表立场"><i><img src="static/image/common/agree.gif" alt="评分" />评分</i></a>
+<a class="sharep" href="home.php?mod=spacecp&amp;ac=share&amp;type=thread&amp;id=76988" onclick="showWindow('sharethread', this.href, 'get', 0);" title="分享推精华"><i><img src="static/image/common/oshr.png" alt="分享" />分享</i></a>
+<a href="https://fishc.com.cn/forum.php?mod=collection&amp;action=edit&amp;op=addthread&amp;tid=76988" id="k_collect" onclick="showWindow(this.id, this.href);return false;" onmouseover="this.title = $('collectionnumber').innerHTML + ' 人淘帖'" title="淘好帖进专辑"><i><img src="static/image/common/collection.png" alt="分享" />淘帖<span id="collectionnumber" style="display:none">0</span></i></a>
+<a id="recommend_add" href="forum.php?mod=misc&amp;action=recommend&amp;do=add&amp;tid=76988&amp;hash=6d535bd3" onclick="ajaxmenu(this, 3000, 1, 0, '43', 'recommendupdate(1)');return false;" onmouseover="this.title = $('recommendv_add').innerHTML + ' 人顶'" title="顶一下"><i><img src="static/image/common/rec_add.gif" alt="顶" />顶<span id="recommendv_add">3</span></i></a>
+<a id="recommend_subtract" href="forum.php?mod=misc&amp;action=recommend&amp;do=subtract&amp;tid=76988&amp;hash=6d535bd3" onclick="ajaxmenu(this, 3000, 1, 0, '43', 'recommendupdate(-1)');return false;" onmouseover="this.title = $('recommendv_subtract').innerHTML + ' 人踩'" title="踩一下"><i><img src="static/image/common/rec_subtract.gif" alt="踩" />踩<span id="recommendv_subtract" style="display:none">0</span></i></a>
+</div>
+<div class="sign" style="max-height:60px;maxHeightIE:60px;"><strong><font color="SeaGreen">I love FishC.com!</font></strong></div>
+</td>
+</tr>
+<tr id="_postposition2679172"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+<a class="fastre" href="forum.php?mod=post&amp;action=reply&amp;fid=329&amp;tid=76988&amp;reppost=2679172&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=1" onclick="showWindow('reply', this.href)">回复</a>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('miscreport2679172', 'misc.php?mod=report&rtype=post&rid=2679172&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+<script type="text/javascript" reload="1">
+aimgcount[2679172] = ['57187','57188','57189','57190','57191'];
+attachimggroup(2679172);
+var aimgfid = 0;
+</script>
+</div><div id="post_2754414" ><table id="pid2754414" class="plhin" summary="pid2754414" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2754414" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-280911.html" target="_blank" class="xw1" style="color: #008000">人造人</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_1" id="userinfo2754414" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2754414_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-280911.html" target="_blank" class="xi2" style="color: #008000">人造人</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?280911" target="_blank" class="xi2">280911</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>251 </dd>
+	<dt>荣誉</dt><dd>6000 </dd>
+	<dt>技术值</dt><dd>481 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=280911&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2754414')"><a href="https://fishc.com.cn/space-uid-280911.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=280911&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=280911" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=280911" target="_blank"><font color=red>532</font></a>&nbsp; </dd></dl><p class="md_ctrl"><span class="normalmd"><a href="plugin.php?id=ruri_medal&operation=show&medalid=47" target="_blank"><img src="data/attachment/common/xinrenjinbu.gif" alt="小鱼进步 - 小鱼进步"  id="md_2754414_47" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_47_menu','pos':'12!'});"/></a></span></p><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=thread&type=thread&view=me&from=space" class="xi2">27</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=thread&type=reply&view=me&from=space" class="xi2">4131</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=profile" class="xi2">6000</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=profile" target="_blank" class="xi2">5555</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_280911&amp;touid=280911&amp;pmid=0&amp;daterange=2&amp;pid=2754414&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2754414"   id="postnum2754414" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>2</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2754414" src="static/image/common/online_vip.gif" />
+<em id="authorposton2754414">发表于 2016-12-26 21:13:59</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=280911" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2754414"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2754414', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2754414', 'misc.php?mod=report&rtype=post&rid=2754414&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2754420" ><table id="pid2754420" class="plhin" summary="pid2754420" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2754420" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-280911.html" target="_blank" class="xw1" style="color: #008000">人造人</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_1" id="userinfo2754420" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2754420_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-280911.html" target="_blank" class="xi2" style="color: #008000">人造人</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?280911" target="_blank" class="xi2">280911</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>251 </dd>
+	<dt>荣誉</dt><dd>6000 </dd>
+	<dt>技术值</dt><dd>481 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=280911&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2754420')"><a href="https://fishc.com.cn/space-uid-280911.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=280911&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=280911" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=280911" target="_blank"><font color=red>532</font></a>&nbsp; </dd></dl><p class="md_ctrl"><span class="normalmd"><a href="plugin.php?id=ruri_medal&operation=show&medalid=47" target="_blank"><img src="data/attachment/common/xinrenjinbu.gif" alt="小鱼进步 - 小鱼进步"  id="md_2754420_47" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_47_menu','pos':'12!'});"/></a></span></p><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=thread&type=thread&view=me&from=space" class="xi2">27</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=thread&type=reply&view=me&from=space" class="xi2">4131</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=profile" class="xi2">6000</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=profile" target="_blank" class="xi2">5555</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_280911&amp;touid=280911&amp;pmid=0&amp;daterange=2&amp;pid=2754420&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2754420"   id="postnum2754420" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>3</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2754420" src="static/image/common/online_vip.gif" />
+<em id="authorposton2754420">发表于 2016-12-26 21:19:03</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=280911" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign" style="max-height:60px;maxHeightIE:60px;"><img id="aimg_BSdnf" onclick="zoom(this, this.src, 0, 0, 0)" class="zoom" src="http://ip.ntrqq.net/images/vocaloid.png?wd=IA%3D%3D" onmouseover="img_onmouseoverfunc(this)" onload="thumbImg(this)" border="0" alt="" /></div>
+</td>
+</tr>
+<tr id="_postposition2754420"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2754420', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2754420', 'misc.php?mod=report&rtype=post&rid=2754420&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+<script type="text/javascript" reload="1">
+aimgcount[2754420] = ['57286'];
+attachimggroup(2754420);
+var aimgfid = 0;
+</script>
+</div><div id="post_2754430" ><table id="pid2754430" class="plhin" summary="pid2754430" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2754430" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-280911.html" target="_blank" class="xw1" style="color: #008000">人造人</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_1" id="userinfo2754430" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2754430_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-280911.html" target="_blank" class="xi2" style="color: #008000">人造人</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?280911" target="_blank" class="xi2">280911</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>251 </dd>
+	<dt>荣誉</dt><dd>6000 </dd>
+	<dt>技术值</dt><dd>481 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=280911&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2754430')"><a href="https://fishc.com.cn/space-uid-280911.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=280911&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=280911" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=280911" target="_blank"><font color=red>532</font></a>&nbsp; </dd></dl><p class="md_ctrl"><span class="normalmd"><a href="plugin.php?id=ruri_medal&operation=show&medalid=47" target="_blank"><img src="data/attachment/common/xinrenjinbu.gif" alt="小鱼进步 - 小鱼进步"  id="md_2754430_47" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_47_menu','pos':'12!'});"/></a></span></p><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=thread&type=thread&view=me&from=space" class="xi2">27</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=thread&type=reply&view=me&from=space" class="xi2">4131</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=profile" class="xi2">6000</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=profile" target="_blank" class="xi2">5555</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_280911&amp;touid=280911&amp;pmid=0&amp;daterange=2&amp;pid=2754430&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2754430"   id="postnum2754430" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>4</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2754430" src="static/image/common/online_vip.gif" />
+<em id="authorposton2754430">发表于 2016-12-26 21:24:30</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=280911" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign" style="max-height:60px;maxHeightIE:60px;"><img id="aimg_BSdnf" onclick="zoom(this, this.src, 0, 0, 0)" class="zoom" src="http://ip.ntrqq.net/images/vocaloid.png?wd=IA%3D%3D" onmouseover="img_onmouseoverfunc(this)" onload="thumbImg(this)" border="0" alt="" /></div>
+</td>
+</tr>
+<tr id="_postposition2754430"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2754430', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2754430', 'misc.php?mod=report&rtype=post&rid=2754430&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+<script type="text/javascript" reload="1">
+aimgcount[2754430] = ['57287'];
+attachimggroup(2754430);
+var aimgfid = 0;
+</script>
+</div><div id="post_2754489" ><table id="pid2754489" class="plhin" summary="pid2754489" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2754489" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-280911.html" target="_blank" class="xw1" style="color: #008000">人造人</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_1" id="userinfo2754489" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2754489_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-280911.html" target="_blank" class="xi2" style="color: #008000">人造人</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?280911" target="_blank" class="xi2">280911</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>251 </dd>
+	<dt>荣誉</dt><dd>6000 </dd>
+	<dt>技术值</dt><dd>481 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=280911&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2754489')"><a href="https://fishc.com.cn/space-uid-280911.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=280911&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=280911" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=280911" target="_blank"><font color=red>532</font></a>&nbsp; </dd></dl><p class="md_ctrl"><span class="normalmd"><a href="plugin.php?id=ruri_medal&operation=show&medalid=47" target="_blank"><img src="data/attachment/common/xinrenjinbu.gif" alt="小鱼进步 - 小鱼进步"  id="md_2754489_47" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_47_menu','pos':'12!'});"/></a></span></p><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=thread&type=thread&view=me&from=space" class="xi2">27</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=thread&type=reply&view=me&from=space" class="xi2">4131</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=profile" class="xi2">6000</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=280911&do=profile" target="_blank" class="xi2">5555</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_280911&amp;touid=280911&amp;pmid=0&amp;daterange=2&amp;pid=2754489&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2754489"   id="postnum2754489" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>5</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2754489" src="static/image/common/online_vip.gif" />
+<em id="authorposton2754489">发表于 2016-12-26 22:19:36</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=280911" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign" style="max-height:60px;maxHeightIE:60px;"><img id="aimg_BSdnf" onclick="zoom(this, this.src, 0, 0, 0)" class="zoom" src="http://ip.ntrqq.net/images/vocaloid.png?wd=IA%3D%3D" onmouseover="img_onmouseoverfunc(this)" onload="thumbImg(this)" border="0" alt="" /></div>
+</td>
+</tr>
+<tr id="_postposition2754489"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2754489', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2754489', 'misc.php?mod=report&rtype=post&rid=2754489&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2754492" ><table id="pid2754492" class="plhin" summary="pid2754492" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2754492" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-354541.html" target="_blank" class="xw1" style="color: #008000">deerjavu</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_0" id="userinfo2754492" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2754492_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-354541.html" target="_blank" class="xi2" style="color: #008000">deerjavu</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?354541" target="_blank" class="xi2">354541</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=354541&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=354541&do=album&view=me&from=space" target="_blank" class="xi2">1</a></dd>
+	<dt>贡献</dt><dd>29 </dd>
+	<dt>荣誉</dt><dd>261 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=354541&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2754492')"><a href="https://fishc.com.cn/space-uid-354541.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=354541&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=354541" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=354541" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=354541&do=thread&type=thread&view=me&from=space" class="xi2">2</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=354541&do=thread&type=reply&view=me&from=space" class="xi2">102</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=354541&do=profile" class="xi2">261</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=354541&do=profile" target="_blank" class="xi2">239</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_354541&amp;touid=354541&amp;pmid=0&amp;daterange=2&amp;pid=2754492&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2754492"   id="postnum2754492" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>6</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2754492" src="static/image/common/online_vip.gif" />
+<em id="authorposton2754492">发表于 2016-12-26 22:22:06</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=354541" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2754492"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2754492', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2754492', 'misc.php?mod=report&rtype=post&rid=2754492&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2755312" ><table id="pid2755312" class="plhin" summary="pid2755312" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2755312" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-388664.html" target="_blank" class="xw1" style="color: #008000">jamespp</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_0" id="userinfo2755312" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2755312_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-388664.html" target="_blank" class="xi2" style="color: #008000">jamespp</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?388664" target="_blank" class="xi2">388664</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>0 </dd>
+	<dt>荣誉</dt><dd>68 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=388664&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2755312')"><a href="https://fishc.com.cn/space-uid-388664.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=388664&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=388664" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=388664" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=thread&type=thread&view=me&from=space" class="xi2">2</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=thread&type=reply&view=me&from=space" class="xi2">45</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=profile" class="xi2">68</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=profile" target="_blank" class="xi2">44</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_388664&amp;touid=388664&amp;pmid=0&amp;daterange=2&amp;pid=2755312&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2755312"   id="postnum2755312" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>7</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2755312" src="static/image/common/online_vip.gif" />
+<em id="authorposton2755312">发表于 2016-12-27 19:04:13</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=388664" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2755312"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2755312', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2755312', 'misc.php?mod=report&rtype=post&rid=2755312&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2755323" ><table id="pid2755323" class="plhin" summary="pid2755323" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2755323" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-388664.html" target="_blank" class="xw1" style="color: #008000">jamespp</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_0" id="userinfo2755323" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2755323_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-388664.html" target="_blank" class="xi2" style="color: #008000">jamespp</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?388664" target="_blank" class="xi2">388664</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>0 </dd>
+	<dt>荣誉</dt><dd>68 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=388664&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2755323')"><a href="https://fishc.com.cn/space-uid-388664.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=388664&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=388664" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=388664" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=thread&type=thread&view=me&from=space" class="xi2">2</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=thread&type=reply&view=me&from=space" class="xi2">45</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=profile" class="xi2">68</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=388664&do=profile" target="_blank" class="xi2">44</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_388664&amp;touid=388664&amp;pmid=0&amp;daterange=2&amp;pid=2755323&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2755323"   id="postnum2755323" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>8</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2755323" src="static/image/common/online_vip.gif" />
+<em id="authorposton2755323">发表于 2016-12-27 19:20:49</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=388664" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2755323"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2755323', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2755323', 'misc.php?mod=report&rtype=post&rid=2755323&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2755698" ><table id="pid2755698" class="plhin" summary="pid2755698" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2755698" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-369134.html" target="_blank" class="xw1">元芬</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_0" id="userinfo2755698" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2755698_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-369134.html" target="_blank" class="xi2">元芬</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?369134" target="_blank" class="xi2">369134</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=369134&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=369134&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>0 </dd>
+	<dt>荣誉</dt><dd>262 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=369134&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2755698')"><a href="https://fishc.com.cn/space-uid-369134.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=369134&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=369134" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=369134" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=369134&do=thread&type=thread&view=me&from=space" class="xi2">0</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=369134&do=thread&type=reply&view=me&from=space" class="xi2">37</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=369134&do=profile" class="xi2">262</a></p>荣誉</td></table></div>
+
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=24" target="_blank">鱼友Ⅰ</a></em></p>
+
+
+<p><span id="g_up2755698" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level1.gif" alt="Rank: 2" /><img src="static/image/common/star_level1.gif" alt="Rank: 2" /></span></p>
+<div id="g_up2755698_menu" class="tip tip_4" style="display: none;"><div class="tip_horn"></div><div class="tip_c">鱼友Ⅰ, 积分 138, 距离下一级还需 62 积分</div></div>
+
+
+<p><span class="pbg2"  id="upgradeprogress_2755698" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!', 'menuid':'g_up2755698_menu'});"><span class="pbr2" style="width:38%;"></span></span></p>
+<div id="g_up2755698_menu" class="tip tip_4" style="display: none;"><div class="tip_horn"></div><div class="tip_c">鱼友Ⅰ, 积分 138, 距离下一级还需 62 积分</div></div>
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=369134&do=profile" target="_blank" class="xi2">138</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_369134&amp;touid=369134&amp;pmid=0&amp;daterange=2&amp;pid=2755698&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2755698"   id="postnum2755698" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>9</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2755698" src="static/image/common/online_member.gif" />
+<em id="authorposton2755698">发表于 2016-12-28 09:30:02</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=369134" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2755698"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2755698', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2755698', 'misc.php?mod=report&rtype=post&rid=2755698&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2756542" ><table id="pid2756542" class="plhin" summary="pid2756542" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2756542" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-255787.html" target="_blank" class="xw1" style="color: #008000">miaomaio</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_0" id="userinfo2756542" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2756542_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-255787.html" target="_blank" class="xi2" style="color: #008000">miaomaio</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?255787" target="_blank" class="xi2">255787</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=255787&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=255787&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>0 </dd>
+	<dt>荣誉</dt><dd>384 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=255787&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2756542')"><a href="https://fishc.com.cn/space-uid-255787.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=255787&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=255787" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=255787" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=255787&do=thread&type=thread&view=me&from=space" class="xi2">0</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=255787&do=thread&type=reply&view=me&from=space" class="xi2">168</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=255787&do=profile" class="xi2">384</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=255787&do=profile" target="_blank" class="xi2">226</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_255787&amp;touid=255787&amp;pmid=0&amp;daterange=2&amp;pid=2756542&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2756542"   id="postnum2756542" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>10</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2756542" src="static/image/common/online_vip.gif" />
+<em id="authorposton2756542">发表于 2016-12-28 23:02:20</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=255787" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2756542"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2756542', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2756542', 'misc.php?mod=report&rtype=post&rid=2756542&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2761777" ><table id="pid2761777" class="plhin" summary="pid2761777" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2761777" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-405139.html" target="_blank" class="xw1" style="color: #008000">huanwen</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_0" id="userinfo2761777" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2761777_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-405139.html" target="_blank" class="xi2" style="color: #008000">huanwen</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?405139" target="_blank" class="xi2">405139</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=405139&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=405139&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>0 </dd>
+	<dt>荣誉</dt><dd>12 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=405139&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2761777')"><a href="https://fishc.com.cn/space-uid-405139.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=405139&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=405139" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=405139" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=405139&do=thread&type=thread&view=me&from=space" class="xi2">0</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=405139&do=thread&type=reply&view=me&from=space" class="xi2">7</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=405139&do=profile" class="xi2">12</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=405139&do=profile" target="_blank" class="xi2">7</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_405139&amp;touid=405139&amp;pmid=0&amp;daterange=2&amp;pid=2761777&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2761777"   id="postnum2761777" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>11</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2761777" src="static/image/common/online_vip.gif" />
+<em id="authorposton2761777">发表于 2017-1-3 22:23:08</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=405139" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2761777"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2761777', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2761777', 'misc.php?mod=report&rtype=post&rid=2761777&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2762260" ><table id="pid2762260" class="plhin" summary="pid2762260" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2762260" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-397436.html" target="_blank" class="xw1" style="color: #008000">zealstar</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_0" id="userinfo2762260" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2762260_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-397436.html" target="_blank" class="xi2" style="color: #008000">zealstar</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?397436" target="_blank" class="xi2">397436</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=397436&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=397436&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>39 </dd>
+	<dt>荣誉</dt><dd>559 </dd>
+	<dt>技术值</dt><dd>10 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=397436&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2762260')"><a href="https://fishc.com.cn/space-uid-397436.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=397436&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=397436" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=397436" target="_blank"><font color=red>9</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=397436&do=thread&type=thread&view=me&from=space" class="xi2">14</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=397436&do=thread&type=reply&view=me&from=space" class="xi2">333</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=397436&do=profile" class="xi2">559</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=397436&do=profile" target="_blank" class="xi2">490</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_397436&amp;touid=397436&amp;pmid=0&amp;daterange=2&amp;pid=2762260&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2762260"   id="postnum2762260" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>12</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2762260" src="static/image/common/online_vip.gif" />
+<em id="authorposton2762260">发表于 2017-1-4 12:46:00</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=397436" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2762260"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2762260', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2762260', 'misc.php?mod=report&rtype=post&rid=2762260&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2772296" ><table id="pid2772296" class="plhin" summary="pid2772296" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2772296" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-396692.html" target="_blank" class="xw1" style="color: #008000">llccbb1</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_0" id="userinfo2772296" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2772296_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-396692.html" target="_blank" class="xi2" style="color: #008000">llccbb1</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?396692" target="_blank" class="xi2">396692</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=396692&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=396692&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>0 </dd>
+	<dt>荣誉</dt><dd>151 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=396692&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2772296')"><a href="https://fishc.com.cn/space-uid-396692.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=396692&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=396692" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=396692" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=396692&do=thread&type=thread&view=me&from=space" class="xi2">5</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=396692&do=thread&type=reply&view=me&from=space" class="xi2">56</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=396692&do=profile" class="xi2">151</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=396692&do=profile" target="_blank" class="xi2">89</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_396692&amp;touid=396692&amp;pmid=0&amp;daterange=2&amp;pid=2772296&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2772296"   id="postnum2772296" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>13</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2772296" src="static/image/common/online_vip.gif" />
+<em id="authorposton2772296">发表于 2017-1-14 16:08:19</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=396692" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2772296"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2772296', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2772296', 'misc.php?mod=report&rtype=post&rid=2772296&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2772394" ><table id="pid2772394" class="plhin" summary="pid2772394" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2772394" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-222151.html" target="_blank" class="xw1">天魔乱舞</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_1" id="userinfo2772394" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2772394_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-222151.html" target="_blank" class="xi2">天魔乱舞</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?222151" target="_blank" class="xi2">222151</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=222151&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=222151&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>2 </dd>
+	<dt>荣誉</dt><dd>50 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=222151&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2772394')"><a href="https://fishc.com.cn/space-uid-222151.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=222151&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=222151" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=222151" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=222151&do=thread&type=thread&view=me&from=space" class="xi2">0</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=222151&do=thread&type=reply&view=me&from=space" class="xi2">42</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=222151&do=profile" class="xi2">50</a></p>荣誉</td></table></div>
+
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=10" target="_blank">新鱼友</a></em></p>
+
+
+<p><span id="g_up2772394" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level1.gif" alt="Rank: 1" /></span></p>
+<div id="g_up2772394_menu" class="tip tip_4" style="display: none;"><div class="tip_horn"></div><div class="tip_c">新鱼友, 积分 39, 距离下一级还需 61 积分</div></div>
+
+
+<p><span class="pbg2"  id="upgradeprogress_2772394" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!', 'menuid':'g_up2772394_menu'});"><span class="pbr2" style="width:39%;"></span></span></p>
+<div id="g_up2772394_menu" class="tip tip_4" style="display: none;"><div class="tip_horn"></div><div class="tip_c">新鱼友, 积分 39, 距离下一级还需 61 积分</div></div>
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=222151&do=profile" target="_blank" class="xi2">39</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_222151&amp;touid=222151&amp;pmid=0&amp;daterange=2&amp;pid=2772394&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2772394"   id="postnum2772394" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>14</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2772394" src="static/image/common/online_member.gif" />
+<em id="authorposton2772394">发表于 2017-1-14 17:57:46</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=222151" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2772394"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2772394', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2772394', 'misc.php?mod=report&rtype=post&rid=2772394&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2773038" ><table id="pid2773038" class="plhin" summary="pid2773038" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2773038" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-407923.html" target="_blank" class="xw1" style="color: #008000">smgp</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_2" id="userinfo2773038" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2773038_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-407923.html" target="_blank" class="xi2" style="color: #008000">smgp</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?407923" target="_blank" class="xi2">407923</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=407923&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=407923&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>0 </dd>
+	<dt>荣誉</dt><dd>147 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=407923&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2773038')"><a href="https://fishc.com.cn/space-uid-407923.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=407923&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=407923" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=407923" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=407923&do=thread&type=thread&view=me&from=space" class="xi2">9</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=407923&do=thread&type=reply&view=me&from=space" class="xi2">102</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=407923&do=profile" class="xi2">147</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=407923&do=profile" target="_blank" class="xi2">98</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_407923&amp;touid=407923&amp;pmid=0&amp;daterange=2&amp;pid=2773038&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2773038"   id="postnum2773038" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>15</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2773038" src="static/image/common/online_vip.gif" />
+<em id="authorposton2773038">发表于 2017-1-15 16:10:13</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=407923" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2773038"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2773038', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2773038', 'misc.php?mod=report&rtype=post&rid=2773038&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2773107" ><table id="pid2773107" class="plhin" summary="pid2773107" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2773107" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-371405.html" target="_blank" class="xw1">hswangrui</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_0" id="userinfo2773107" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2773107_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-371405.html" target="_blank" class="xi2">hswangrui</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?371405" target="_blank" class="xi2">371405</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=371405&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=371405&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>0 </dd>
+	<dt>荣誉</dt><dd>46 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=371405&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2773107')"><a href="https://fishc.com.cn/space-uid-371405.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=371405&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=371405" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=371405" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=371405&do=thread&type=thread&view=me&from=space" class="xi2">4</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=371405&do=thread&type=reply&view=me&from=space" class="xi2">41</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=371405&do=profile" class="xi2">46</a></p>荣誉</td></table></div>
+
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=10" target="_blank">新鱼友</a></em></p>
+
+
+<p><span id="g_up2773107" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!'});"><img src="static/image/common/star_level1.gif" alt="Rank: 1" /></span></p>
+<div id="g_up2773107_menu" class="tip tip_4" style="display: none;"><div class="tip_horn"></div><div class="tip_c">新鱼友, 积分 33, 距离下一级还需 67 积分</div></div>
+
+
+<p><span class="pbg2"  id="upgradeprogress_2773107" onmouseover="showMenu({'ctrlid':this.id, 'pos':'12!', 'menuid':'g_up2773107_menu'});"><span class="pbr2" style="width:33%;"></span></span></p>
+<div id="g_up2773107_menu" class="tip tip_4" style="display: none;"><div class="tip_horn"></div><div class="tip_c">新鱼友, 积分 33, 距离下一级还需 67 积分</div></div>
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=371405&do=profile" target="_blank" class="xi2">33</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_371405&amp;touid=371405&amp;pmid=0&amp;daterange=2&amp;pid=2773107&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2773107"   id="postnum2773107" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>16</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2773107" src="static/image/common/online_member.gif" />
+<em id="authorposton2773107">发表于 2017-1-15 17:42:57</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=371405" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2773107"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2773107', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2773107', 'misc.php?mod=report&rtype=post&rid=2773107&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2775155" ><table id="pid2775155" class="plhin" summary="pid2775155" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2775155" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-401603.html" target="_blank" class="xw1" style="color: #008000">HYYYYY</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_1" id="userinfo2775155" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2775155_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-401603.html" target="_blank" class="xi2" style="color: #008000">HYYYYY</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?401603" target="_blank" class="xi2">401603</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=401603&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=401603&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>0 </dd>
+	<dt>荣誉</dt><dd>32 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=401603&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2775155')"><a href="https://fishc.com.cn/space-uid-401603.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=401603&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=401603" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=401603" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=401603&do=thread&type=thread&view=me&from=space" class="xi2">0</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=401603&do=thread&type=reply&view=me&from=space" class="xi2">32</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=401603&do=profile" class="xi2">32</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=401603&do=profile" target="_blank" class="xi2">22</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_401603&amp;touid=401603&amp;pmid=0&amp;daterange=2&amp;pid=2775155&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2775155"   id="postnum2775155" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>17</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2775155" src="static/image/common/online_vip.gif" />
+<em id="authorposton2775155">发表于 2017-1-17 20:18:59</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=401603" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2775155"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2775155', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2775155', 'misc.php?mod=report&rtype=post&rid=2775155&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2779656" ><table id="pid2779656" class="plhin" summary="pid2779656" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2779656" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-372454.html" target="_blank" class="xw1" style="color: #008000">kissboa</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_0" id="userinfo2779656" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2779656_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-372454.html" target="_blank" class="xi2" style="color: #008000">kissboa</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?372454" target="_blank" class="xi2">372454</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=372454&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=372454&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>0 </dd>
+	<dt>荣誉</dt><dd>105 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=372454&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2779656')"><a href="https://fishc.com.cn/space-uid-372454.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=372454&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=372454" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=372454" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=372454&do=thread&type=thread&view=me&from=space" class="xi2">1</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=372454&do=thread&type=reply&view=me&from=space" class="xi2">56</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=372454&do=profile" class="xi2">105</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=372454&do=profile" target="_blank" class="xi2">64</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_372454&amp;touid=372454&amp;pmid=0&amp;daterange=2&amp;pid=2779656&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2779656"   id="postnum2779656" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>18</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2779656" src="static/image/common/online_vip.gif" />
+<em id="authorposton2779656">发表于 2017-1-22 20:32:37</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=372454" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2779656"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2779656', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2779656', 'misc.php?mod=report&rtype=post&rid=2779656&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2779769" ><table id="pid2779769" class="plhin" summary="pid2779769" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2779769" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-388857.html" target="_blank" class="xw1" style="color: #008000">青蛙如果</a>
+</div>
+</div>
+<div class="p_pop blk bui card_gender_1" id="userinfo2779769" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2779769_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-388857.html" target="_blank" class="xi2" style="color: #008000">青蛙如果</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?388857" target="_blank" class="xi2">388857</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=388857&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=388857&do=album&view=me&from=space" target="_blank" class="xi2">1</a></dd>
+	<dt>贡献</dt><dd>1 </dd>
+	<dt>荣誉</dt><dd>153 </dd>
+	<dt>技术值</dt><dd>0 </dd>
+</dl>
+<div class="imicn">
+<a href="https://fishc.com.cn/home.php?mod=space&amp;uid=388857&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2779769')"><a href="https://fishc.com.cn/space-uid-388857.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=388857&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=388857" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=388857" target="_blank"><font color=red>0</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=388857&do=thread&type=thread&view=me&from=space" class="xi2">1</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=388857&do=thread&type=reply&view=me&from=space" class="xi2">47</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=388857&do=profile" class="xi2">153</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=388857&do=profile" target="_blank" class="xi2">89</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_388857&amp;touid=388857&amp;pmid=0&amp;daterange=2&amp;pid=2779769&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2779769"   id="postnum2779769" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>19</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2779769" src="static/image/common/online_vip.gif" />
+<em id="authorposton2779769">发表于 2017-1-22 22:08:41</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=388857" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2779769"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2779769', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2779769', 'misc.php?mod=report&rtype=post&rid=2779769&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="post_2787122" ><table id="pid2787122" class="plhin" summary="pid2787122" cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls" rowspan="2">
+<div id="favatar2787122" class="pls favatar">
+ <div class="pi">
+<div class="authi"><a href="https://fishc.com.cn/space-uid-390226.html" target="_blank" class="xw1" style="color: #008000">超凡天赐</a><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=profile&amp;op=verify&amp;vid=3" target="_blank"><img src="data/attachment/common/ec/common_3_verify_icon.png" class="vm" alt="互助团队" title="互助团队" /></a>
+
+</div>
+</div>
+<div class="p_pop blk bui card_gender_1" id="userinfo2787122" style="display: none; margin-top: -11px;">
+<div class="m z">
+<div id="userinfo2787122_ma"></div>
+</div>
+<div class="i y">
+<div>
+<strong><a href="https://fishc.com.cn/space-uid-390226.html" target="_blank" class="xi2" style="color: #008000">超凡天赐</a></strong>
+<em>当前离线</em>
+</div><dl class="cl">
+	<dt>UID</dt><dd><a href="?390226" target="_blank" class="xi2">390226</a></dd>
+	<dt>日志</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=390226&do=blog&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>相册</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=390226&do=album&view=me&from=space" target="_blank" class="xi2">0</a></dd>
+	<dt>贡献</dt><dd>67 </dd>
+	<dt>荣誉</dt><dd>683 </dd>
+	<dt>技术值</dt><dd>19 </dd>
+</dl>
+<div class="imicn">
+<a href="//wpa.qq.com/msgrd?v=3&amp;uin=969032536&amp;site=鱼C论坛&amp;menu=yes&amp;from=discuz" target="_blank" title="QQ"><img src="static/image/common/qq.gif" alt="QQ" /></a><a href="http://" target="_blank" title="查看个人网站"><img src="static/image/common/forumlink.gif" alt="查看个人网站" /></a><a href="https://fishc.com.cn/home.php?mod=space&amp;uid=390226&amp;do=profile" target="_blank" title="查看详细资料"><img src="static/image/common/userinfo.gif" alt="查看详细资料" /></a>
+</div>
+<div id="avatarfeed"><span id="threadsortswait"></span></div>
+</div>
+</div>
+<div>
+<div class="avatar" onmouseover="showauthor(this, 'userinfo2787122')"><a href="https://fishc.com.cn/space-uid-390226.html" class="avtm" target="_blank"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=390226&size=middle" /></a></div>
+</div>
+<dl class="pil cl"><dt><a href="bestanswer.php?mod=user&uid=390226" target="_blank"><font color=red>最佳答案</font></a></dt><dd><a href="bestanswer.php?mod=user&uid=390226" target="_blank"><font color=red>19</font></a>&nbsp; </dd></dl><div class="tns xg2"><table cellspacing="0" cellpadding="0"><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=390226&do=thread&type=thread&view=me&from=space" class="xi2">44</a></p>主题</th><th><p><a href="https://fishc.com.cn/home.php?mod=space&uid=390226&do=thread&type=reply&view=me&from=space" class="xi2">318</a></p>帖子</th><td><p><a href="https://fishc.com.cn/home.php?mod=space&uid=390226&do=profile" class="xi2">683</a></p>荣誉</td></table></div>
+<p><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><img src="data/attachment/common/98/common_20_usergroup_icon.gif" alt="" class="vm" /></a></p>
+<p><em><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=usergroup&amp;gid=20" target="_blank"><font color="#008000">VIP至尊会员</font></a></em></p>
+
+
+<p><span><img src="static/image/common/star_level3.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /><img src="static/image/common/star_level2.gif" alt="Rank: 15" /></span></p>
+
+
+
+<dl class="pil cl">
+	<dt>积分</dt><dd><a href="https://fishc.com.cn/home.php?mod=space&uid=390226&do=profile" target="_blank" class="xi2">666</a></dd>
+</dl>
+<style type="text/css">img{margin:2px;}</style>
+<ul class="xl xl2 o cl">
+<li class="pm2"><a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=pm&amp;op=showmsg&amp;handlekey=showmsg_390226&amp;touid=390226&amp;pmid=0&amp;daterange=2&amp;pid=2787122&amp;tid=76988" onclick="showWindow('sendpm', this.href);" title="发消息" class="xi2">发消息</a></li>
+</ul>
+</div>
+</td>
+<td class="plc">
+<div class="pi">
+<strong>
+<a href="https://fishc.com.cn/forum.php?mod=redirect&goto=findpost&ptid=76988&pid=2787122"   id="postnum2787122" onclick="setCopy(this.href, '帖子地址复制成功');return false;">
+<em>20</em><sup>#</sup></a>
+</strong>
+<div class="pti">
+<div class="pdbt">
+</div>
+<div class="authi">
+<img class="authicn vm" id="authicon2787122" src="static/image/common/online_vip.gif" />
+<em id="authorposton2787122">发表于 2017-2-4 14:57:07</em>
+<span class="pipe">|</span>
+<a href="https://fishc.com.cn/forum.php?mod=viewthread&amp;tid=76988&amp;page=1&amp;authorid=390226" rel="nofollow">只看该作者</a>
+</div>
+</div>
+</div><div class="pct"><div class="pcb">
+<div class="locked">此帖仅作者可见</div>
+</div>
+</div>
+
+</td></tr>
+<tr><td class="plc plm">
+<div class="sign">想知道小甲鱼最近在做啥？请访问 -> <a href="https://ilovefishc.com" target="_blank">ilovefishc.com</a></div>
+</td>
+</tr>
+<tr id="_postposition2787122"></tr>
+<tr>
+<td class="pls"></td>
+<td class="plc" style="overflow:visible;">
+<div class="po hin">
+<div class="pob cl">
+<em>
+</em>
+
+<p>
+<a href="javascript:;" onclick="showWindow('rate', 'forum.php?mod=misc&action=rate&tid=76988&pid=2787122', 'get', -1);return false;">评分</a>
+<a href="javascript:;" onclick="showWindow('miscreport2787122', 'misc.php?mod=report&rtype=post&rid=2787122&tid=76988&fid=329', 'get', -1);return false;">举报</a>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+<tr class="ad">
+<td class="pls">
+</td>
+<td class="plc">
+</td>
+</tr>
+</table>
+</div><div id="postlistreply" class="pl"><div id="post_new" class="viewthread_table" style="display: none"></div></div>
+</div>
+
+
+<form method="post" autocomplete="off" name="modactions" id="modactions">
+<input type="hidden" name="formhash" value="6d535bd3" />
+<input type="hidden" name="optgroup" />
+<input type="hidden" name="operation" />
+<input type="hidden" name="listextra" value="page%3D1%26filter%3Dtypeid%26typeid%3D570" />
+<input type="hidden" name="page" value="1" />
+</form>
+
+
+<div class="pgbtn"><a href="https://fishc.com.cn/thread-76988-2-1.html" hidefocus="true" class="bm_h">下一页 &raquo;</a></div>
+
+<div class="pgs mtm mbm cl">
+<div class="pg"><strong>1</strong><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=2">2</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=3">3</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=4">4</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=5">5</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=6">6</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=7">7</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=8">8</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=9">9</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=10">10</a><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=30" class="last">... 30</a><label><input type="text" name="custompage" class="px" size="2" title="输入页码，按回车快速跳转" value="1" onkeydown="if(event.keyCode==13) {window.location='forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page='+this.value;; doane(event);}" /><span title="共 30 页"> / 30 页</span></label><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=2" class="nxt">下一页</a></div><span class="pgb y" id="visitedforumstmp" onmouseover="$('visitedforums').id = 'visitedforumstmp';this.id = 'visitedforums';showMenu({'ctrlid':this.id,'pos':'21'})"><a href="https://fishc.com.cn/forum.php?mod=forumdisplay&amp;fid=329&amp;page=1&filter=typeid&typeid=570">返回列表</a></span>
+<a id="newspecialtmp" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu({'ctrlid':this.id})" onclick="showWindow('newthread', 'forum.php?mod=post&action=newthread&fid=329')" href="javascript:;" title="发新帖"><img src="static/image/common/pn_post.png" alt="发新帖" /></a>
+<a id="post_replytmp" onclick="showWindow('reply', 'forum.php?mod=post&action=reply&fid=329&tid=76988')" href="javascript:;" title="回复"><img src="static/image/common/pn_reply.png" alt="回复" /></a>
+</div>
+
+
+<div id="md_37_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>原创先锋</h4>
+<p>原创先锋</p>
+<p><a href="plugin.php?id=ruri_medal&amp;cid=5" title="功勋奖章 - 奖励为论坛做出贡献的鱼油" class="xi2">功勋奖章</a></p>
+</div>
+</div>
+<div id="md_45_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>荣誉勋章</h4>
+<p>鱼C荣誉勋章 -- 授予鱼C表现优秀的鱼油！</p>
+<p><a href="plugin.php?id=ruri_medal&amp;cid=5" title="功勋奖章 - 奖励为论坛做出贡献的鱼油" class="xi2">功勋奖章</a></p>
+</div>
+</div>
+<div id="md_49_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>问答达人</h4>
+<p>问答达人</p>
+<p><a href="plugin.php?id=ruri_medal&amp;cid=5" title="功勋奖章 - 奖励为论坛做出贡献的鱼油" class="xi2">功勋奖章</a></p>
+</div>
+</div>
+<div id="md_18_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>灌水大师</h4>
+<p>发帖数（包含回帖）大于1000</p>
+<p><a href="plugin.php?id=ruri_medal&amp;cid=5" title="功勋奖章 - 奖励为论坛做出贡献的鱼油" class="xi2">功勋奖章</a></p>
+</div>
+</div>
+<div id="md_12_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>优秀管理</h4>
+<p>优秀管理</p>
+<p><a href="plugin.php?id=ruri_medal&amp;cid=5" title="功勋奖章 - 奖励为论坛做出贡献的鱼油" class="xi2">功勋奖章</a></p>
+</div>
+</div>
+<div id="md_13_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>乐于助人</h4>
+<p>技术值大于60</p>
+<p><a href="plugin.php?id=ruri_medal&amp;cid=5" title="功勋奖章 - 奖励为论坛做出贡献的鱼油" class="xi2">功勋奖章</a></p>
+</div>
+</div>
+<div id="md_39_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>小鱼成长</h4>
+<p>小鱼成长</p>
+<p><a href="plugin.php?id=ruri_medal&amp;cid=5" title="功勋奖章 - 奖励为论坛做出贡献的鱼油" class="xi2">功勋奖章</a></p>
+</div>
+</div>
+<div id="md_41_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>魅力四射</h4>
+<p>魅力四射</p>
+<p><a href="plugin.php?id=ruri_medal&amp;cid=5" title="功勋奖章 - 奖励为论坛做出贡献的鱼油" class="xi2">功勋奖章</a></p>
+</div>
+</div>
+<div id="md_36_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>在线之王</h4>
+<p>在线时间超过1000小时</p>
+<p><a href="plugin.php?id=ruri_medal&amp;cid=5" title="功勋奖章 - 奖励为论坛做出贡献的鱼油" class="xi2">功勋奖章</a></p>
+</div>
+</div>
+<div id="md_47_menu" class="tip tip_4" style="display: none;">
+<div class="tip_horn"></div>
+<div class="tip_c">
+<h4>小鱼进步</h4>
+<p>小鱼进步</p>
+<p><a href="plugin.php?id=ruri_medal&amp;cid=5" title="功勋奖章 - 奖励为论坛做出贡献的鱼油" class="xi2">功勋奖章</a></p>
+</div>
+</div>
+
+<!--[diy=diyfastposttop]--><div id="diyfastposttop" class="area"></div><!--[/diy]-->
+<script type="text/javascript">
+var postminchars = parseInt('0');
+var postmaxchars = parseInt('50000');
+var disablepostctrl = parseInt('0');
+</script>
+
+<div id="f_pst" class="pl bm bmw">
+<form method="post" autocomplete="off" id="fastpostform" action="forum.php?mod=post&amp;action=reply&amp;fid=329&amp;tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;replysubmit=yes&amp;infloat=yes&amp;handlekey=fastpost" onSubmit="return fastpostvalidate(this)">
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="pls">
+<div class="avatar avtm"><img src="https://fishc.com.cn/ucenter/avatar.php?uid=670134&size=middle" /></div></td>
+<td class="plc">
+
+<span id="fastpostreturn"></span>
+
+
+<div class="cl">
+<div id="fastsmiliesdiv" class="y"><div id="fastsmiliesdiv_data"><div id="fastsmilies"></div></div></div><div class="hasfsl" id="fastposteditor">
+<div class="tedt mtn">
+<div class="bar">
+<span class="y">
+<a href="https://fishc.com.cn/forum.php?mod=post&amp;action=reply&amp;fid=329&amp;tid=76988" onclick="return switchAdvanceMode(this.href)">高级模式</a>
+</span><script src="data/cache/seditor.js?F62" type="text/javascript"></script>
+<div class="fpd">
+<a href="javascript:;" title="文字加粗" class="fbld" onclick="seditor_insertunit('fastpost', '[b]', '[/b]');doane(event);">B</a>
+<a href="javascript:;" title="设置文字颜色" class="fclr" id="fastpostforecolor" onclick="showColorBox(this.id, 2, 'fastpost');doane(event);">Color</a>
+<a id="fastpostimg" href="javascript:;" title="图片" class="fmg" onclick="seditor_menu('fastpost', 'img');doane(event);">Image</a>
+<a id="fastposturl" href="javascript:;" title="添加链接" class="flnk" onclick="seditor_menu('fastpost', 'url');doane(event);">Link</a>
+<a id="fastpostquote" href="javascript:;" title="引用" class="fqt" onclick="seditor_menu('fastpost', 'quote');doane(event);">Quote</a>
+<a id="fastpostcode" href="javascript:;" title="代码" class="fcd" onclick="seditor_menu('fastpost', 'code');doane(event);">Code</a>
+<a href="javascript:;" class="fsml" id="fastpostsml" onclick="showMenu({'ctrlid':this.id,'evt':'click','layer':2});return false;">Smilies</a>
+<script type="text/javascript" reload="1">smilies_show('fastpostsmiliesdiv', 8, 'fastpost');</script>
+<script src="data/cache/at.js?F62" type="text/javascript"></script>
+<a id="fastpostat" href="javascript:;" title="@朋友" class="fat" onclick="seditor_menu('fastpost', 'at');doane(event);">@朋友</a>
+<span class="pipe z">|</span><span id="spanButtonPlaceholder">上传</span></div></div>
+<div class="area">
+<textarea rows="6" cols="80" name="message" id="fastpostmessage" onKeyDown="seditor_ctlent(event, 'fastpostvalidate($(\'fastpostform\'))');" tabindex="4" class="pt"></textarea>
+</div>
+</div>
+</div>
+</div>
+<div id="seccheck_fastpost">
+</div>
+
+<script type="text/javascript">
+var editorid = '';
+var ATTACHNUM = {'imageused':0,'imageunused':0,'attachused':0,'attachunused':0}, ATTACHUNUSEDAID = new Array(), IMGUNUSEDAID = new Array();
+</script>
+
+<input type="hidden" name="posttime" id="posttime" value="1562390331" />
+<div class="upfl hasfsl">
+<table cellpadding="0" cellspacing="0" border="0" id="attach_tblheader" style="display: none;">
+<tr>
+<td>点击附件文件名添加到帖子内容中</td>
+<td class="atds">描述</td>
+<td class="attv">
+阅读权限
+<img src="static/image/common/faq.gif" alt="Tip" class="vm" onmouseover="showTip(this)" tip="阅读权限按由高到低排列，高于或等于选中组的用户才可以阅读" />
+</td>
+<td class="attpr">鱼币</td><td class="attc"></td>
+</tr>
+</table>
+<div class="fieldset flash" id="attachlist"></div>
+<script src="data/cache/upload.js?F62" type="text/javascript"></script><script type="text/javascript">
+var upload = new SWFUpload({
+upload_url: "https://fishc.com.cn/misc.php?mod=swfupload&action=swfupload&operation=upload&fid=329",
+post_params: {"uid" : "670134", "hash":"d289473621d95e9c316fd71a536686a3"},
+file_size_limit : "2048",
+file_types : "*.gif;*.jpg;*.jpeg;*.png;*.bmp;*.rar;*.zip",
+file_types_description : "All Support Formats",
+file_upload_limit : 0,
+file_queue_limit : 0,
+swfupload_preload_handler : preLoad,
+swfupload_load_failed_handler : loadFailed,
+file_dialog_start_handler : fileDialogStart,
+file_queued_handler : fileQueued,
+file_queue_error_handler : fileQueueError,
+file_dialog_complete_handler : fileDialogComplete,
+upload_start_handler : uploadStart,
+upload_progress_handler : uploadProgress,
+upload_error_handler : uploadError,
+upload_success_handler : uploadSuccess,
+upload_complete_handler : uploadComplete,
+button_image_url : "static/image/common/uploadbutton_small.png",
+button_placeholder_id : "spanButtonPlaceholder",
+button_width: 17,
+button_height: 25,
+button_cursor:SWFUpload.CURSOR.HAND,
+button_window_mode: "transparent",
+custom_settings : {
+progressTarget : "attachlist",
+uploadSource: 'forum',
+uploadType: 'attach',
+maxSizePerDay: 20971520,
+uploadFrom: 'fastpost'
+},
+debug: false
+});
+</script>
+</div>
+
+<input type="hidden" name="formhash" value="6d535bd3" />
+<input type="hidden" name="usesig" value="1" />
+<input type="hidden" name="subject" value="  " />
+<p class="ptm pnpost">
+<a href="https://fishc.com.cn/home.php?mod=spacecp&amp;ac=credit&amp;op=rule&amp;fid=329" class="y" target="_blank">本版积分规则</a>
+<button type="submit"  onmouseover="checkpostrule('seccheck_fastpost', 'ac=reply');this.onmouseover=null" name="replysubmit" id="fastpostsubmit" class="pn pnc vm" value="replysubmit" tabindex="5"><strong>发表回复</strong></button>
+<label for="fastpostrefresh"><input id="fastpostrefresh" type="checkbox" class="pc" />回帖后跳转到最后一页</label>
+<script type="text/javascript">if(getcookie('fastpostrefresh') == 1) {$('fastpostrefresh').checked=true;}</script>
+</p>
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+<div id="visitedforums_menu" class="p_pop blk cl" style="display: none;">
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td id="v_forums">
+<h3 class="mbn pbn bbda xg1">浏览过的版块</h3>
+<ul class="xl xl1">
+<li><a href="https://fishc.com.cn/forum-243-1.html">《零基础入门学习Python》【第一版】</a></li><li><a href="https://fishc.com.cn/forum-173-1.html">Python交流</a></li></ul>
+</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript">
+new lazyload();
+</script>
+<script type="text/javascript">document.onkeyup = function(e){keyPageScroll(e, 0, 1, 'forum.php?mod=viewthread&tid=76988', 1);}</script>
+</div>
+
+<div class="wp mtn">
+<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+<script type="text/javascript">
+var relatedlink = [];relatedlink[0] = {'sname':'教程', 'surl':'http://fishc.taobao.com'};
+relatedlink[1] = {'sname':'vip', 'surl':'http://fishc.taobao.com'};
+relatedlink[2] = {'sname':'', 'surl':''};
+relatedlinks('postmessage_2679172');
+</script>
+<script type="text/javascript">saveUserdata('forum_'+discuz_uid, '')</script>
+
+<script type="text/javascript">
+function succeedhandle_followmod(url, msg, values) {
+var fObj = $('followmod_'+values['fuid']);
+if(values['type'] == 'add') {
+fObj.innerHTML = '不收听';
+fObj.href = 'home.php?mod=spacecp&ac=follow&op=del&fuid='+values['fuid'];
+} else if(values['type'] == 'del') {
+fObj.innerHTML = '收听TA';
+fObj.href = 'home.php?mod=spacecp&ac=follow&op=add&hash=6d535bd3&fuid='+values['fuid'];
+}
+}
+fixed_avatar([2679172,2754414,2754420,2754430,2754489,2754492,2755312,2755323,2755698,2756542,2761777,2762260,2772296,2772394,2773038,2773107,2775155,2779656,2779769,2787122], 0);
+</script>	</div>
+<div id="ft" class="wp cl">
+<div id="flk" class="y">
+<p>
+<a href="javascript:;"  onclick="showWindow('miscreport', 'misc.php?mod=report&url='+REPORTURL);return false;">举报</a><span class="pipe">|</span><a href="https://fishc.com.cn/forum.php?mod=misc&action=showdarkroom" >小黑屋</a><span class="pipe">|</span><a href="https://fishc.com.cn/forum.php?mobile=yes" >手机版</a><span class="pipe">|</span><a href="https://fishc.com.cn/archiver/" >Archiver</a><span class="pipe">|</span><strong><a href="https://fishc.com.cn" target="_blank">鱼C工作室</a></strong>
+( <a href="http://beian.miit.gov.cn/" target="_blank">粤ICP备18085999号</a> )&nbsp;<a href="http://addon.discuz.com/?@tongdun.plugin" target="_blank" title="同盾防灌水，杜绝网站不良信息！"><img src="source/plugin/tongdun/tongdun.png" /></a></p>
+<p class="xs0">
+GMT+8, 2019-7-6 13:18<span id="debuginfo">
+</span>
+</p>
+</div>
+<div id="frt">
+<p>Powered by <strong><a href="http://www.discuz.net" target="_blank">Discuz!</a></strong> <em>X3.4</em></p>
+<p class="xs0">&copy; 2001-2017 <a href="http://www.comsenz.com" target="_blank">Comsenz Inc.</a></p>
+</div><script type="text/javascript">
+var invisiblestatus = '在线';
+var loginstatusobj = $('loginstatusid');
+if(loginstatusobj != undefined && loginstatusobj != null) loginstatusobj.innerHTML = invisiblestatus;
+</script>
+</div>
+<div class="focus plugin" id="ip_notice"></div>
+<script type="text/javascript">ipNotice();</script>
+
+<div id="scrolltop">
+<span><a href="https://fishc.com.cn/forum.php?mod=post&amp;action=reply&amp;fid=329&amp;tid=76988&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D570&amp;page=1" onclick="showWindow('reply', this.href)" class="replyfast" title="快速回复"><b>快速回复</b></a></span>
+<span hidefocus="true"><a title="返回顶部" onclick="window.scrollTo('0','0')" class="scrolltopa" ><b>返回顶部</b></a></span>
+<span>
+<a href="https://fishc.com.cn/forum-329-1.html" hidefocus="true" class="returnlist" title="返回列表"><b>返回列表</b></a>
+</span>
+</div>
+<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script>
+</body>
+</html>
